@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<Install_HomePage>
+<clickEntertainmanetimage><![CDATA[//a[@href='/enterpriseandentertainment']/img]]></clickEntertainmanetimage>
+<clickinstallimage><![CDATA[//a[@href='/install']/img]]></clickinstallimage>
+<HomeBillboardlocator><![CDATA[//div[@class="slide-item"]/a/img]]></HomeBillboardlocator>
+
+<linedivide><![CDATA[//div[@class="spotlight"][1]]]></linedivide>
+<linedivide1><![CDATA[//div[@class="spotlight"][2]]]></linedivide1>
+<linedivide2><![CDATA[//div[@class="spotlight"][3]]]></linedivide2>
+<linedivide3><![CDATA[//div[@class="spotlight"][4]]]></linedivide3>
+<linedivide4><![CDATA[//div[@class="spotlight"][5]]]></linedivide4>
+<linedivide5><![CDATA[//div[@class="spotlight"][6]]]></linedivide5>
+<linedivide6><![CDATA[//div[@class="spotlight"][7]]]></linedivide6>
+<linedivide7><![CDATA[//div[@class="spotlight"][8]]]></linedivide7>
+<linedivide8><![CDATA[//div[@class="spotlight"][9]]]></linedivide8>
+
+<spotlightimage><![CDATA[//div[@class='banner-group']//a/img]]></spotlightimage>
+<spotlight2image><![CDATA[//div[@class="spotlight"]/a/img]]></spotlight2image>
+<spotlight3image><![CDATA[//div[@class="spotlight"][2]/a/img]]></spotlight3image>
+<spotlight4image><![CDATA[//div[@class="spotlight"][3]/a/img]]></spotlight4image>
+<spotlight5image><![CDATA[//div[@class="spotlight"][4]/a/img]]></spotlight5image>
+<spotlight6image><![CDATA[//div[@class="spotlight"][5]/a/img]]></spotlight6image>
+<spotlight7image><![CDATA[//div[@class="spotlight"][6]/a/img]]></spotlight7image>
+<spotlight8image><![CDATA[//div[@class="spotlight"][7]/a/img]]></spotlight8image>
+<spotlight9image><![CDATA[//div[@class="spotlight"][8]/a/img]]></spotlight9image>
+<spotlight10image><![CDATA[//div[@class="spotlight"][9]/a/img]]></spotlight10image>
+</Install_HomePage>
+ </Locators>

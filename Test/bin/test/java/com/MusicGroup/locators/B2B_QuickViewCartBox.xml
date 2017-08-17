@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <QuickViewCart>
+       <ClickCart><![CDATA[//span[@class='minicart cart-label']]]></ClickCart>
+       <textSpace3Height><![CDATA[//div[@class='miniCartPopup']]]></textSpace3Height>
+       <textSpace3Height1><![CDATA[//div[@class='item-cost-label']/div]]></textSpace3Height1>
+       <textSpace3Height2><![CDATA[//div[@class='item-cost-label']/div[2]]]></textSpace3Height2>
+       <gutter45widthwithtotoaltext><![CDATA[//div[@class='miniCartPopup']]]></gutter45widthwithtotoaltext>
+       <textSpace4Height><![CDATA[//div[@class='item-cost-label']]]></textSpace4Height>
+       <textspace3Heightbelowwight><![CDATA[//div[@class='div-break cartSub']]]></textspace3Heightbelowwight>
+       <textspace3Heightbelowwight1><![CDATA[//div[@class='div-break cartSub']/ul/li[2]/div]]></textspace3Heightbelowwight1>
+       <textspace3Heightbelowwight2><![CDATA[//div[@class='div-break cartSub']/ul/li[2]/div/div]]></textspace3Heightbelowwight2>
+       <vSpace9Height><![CDATA[//div[@class='miniCartPopup']]]></vSpace9Height>
+       <vSpace9HeightaboveViewCart><![CDATA[//div[@class='cart-items div-break']]]></vSpace9HeightaboveViewCart>
+       <vSpace9HeightaboveViewCart1><![CDATA[//div[@class="cart-item"]]]></vSpace9HeightaboveViewCart1>
+       <textSpace3HeightContainerUtilization><![CDATA[//h5[@class='h5-label']]]></textSpace3HeightContainerUtilization>
+       <textSpace5heightDhipFrom><![CDATA[//h5[@class='cart-shipping']]]></textSpace5heightDhipFrom>
+       <textSpace11heightbetween><![CDATA[//div[@class="cartShipInfo"]/p]]></textSpace11heightbetween>
+       <textSpace3HeightContanierUtilization><![CDATA[//div[@class='div-break cartUtilization']]]></textSpace3HeightContanierUtilization>
+       <textSpace3HeightContanierUtilization1><![CDATA[//div[@class='cartShipInfo']]]></textSpace3HeightContanierUtilization1>
+       <vSpace17Height><![CDATA[//div[@class="cart-item"]]]></vSpace17Height>
+       <fixedboximage><![CDATA[//div[@class="cart-item-thumbnail"]]]></fixedboximage>
+       <textSpace11HeightProductCode><![CDATA[//p[@class="description"]]]></textSpace11HeightProductCode>
+       <textSpace11Heightbelowquantity><![CDATA[//p[@class="quantity"]]]></textSpace11Heightbelowquantity>
+</QuickViewCart>
+</Locators>

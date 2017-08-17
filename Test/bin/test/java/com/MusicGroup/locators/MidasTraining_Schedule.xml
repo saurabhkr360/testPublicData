@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<MGTrainingSchedule>
+<ClickToggleMenu><![CDATA[//i[@class='icon-menu icon-menu-login']]]></ClickToggleMenu>
+<ClickMidasBrand><![CDATA[//a[@class='brand-midas']]]></ClickMidasBrand>
+<ClickOnTraining><![CDATA[//a[contains(text(),'Training')]]]></ClickOnTraining>
+<ClickOnSchedule><![CDATA[//a[contains(text(),'Schedule')]]]></ClickOnSchedule>
+
+</MGTrainingSchedule>
+<VerifyPixels>
+<vSpace1HeaderHeight><![CDATA[//div[@class='training-page-margins']]]></vSpace1HeaderHeight>
+<vSpace1HeadingHeight><![CDATA[//div[@class='training-page-margins']/section[@class='row']/h1]]></vSpace1HeadingHeight>
+<vImageHeightNWidth><![CDATA[//div[@class='training-billboard']/img]]></vImageHeightNWidth>
+<vSpace4HeightBelowFirstImage><![CDATA[//ul[@class='list-inline piped']]]></vSpace4HeightBelowFirstImage>
+<vSpace4HeightBelowSecondText><![CDATA[//div[@class='tab-pane active']/div[contains(@class,'training-schedule-title')]]]></vSpace4HeightBelowSecondText>
+<vSpace4BelowAboveThirdText><![CDATA[//div[@class='schedule-border']]]></vSpace4BelowAboveThirdText>
+<vSpace4BelowAboveThirdText2><![CDATA[//div[@class='schedule-border ']]]></vSpace4BelowAboveThirdText2>
+<vTextSpace10CText><![CDATA[//div[@class='schedule-border']//tr/td[@colspan='2']]]></vTextSpace10CText>
+<vTextSpace10CText1><![CDATA[//div[@class='schedule-border']//tr/td[@class='head']]]></vTextSpace10CText1>
+<vTextSpace10CText2><![CDATA[//div[@class='schedule-border']//tr/td[contains(text(),'Status')]]]></vTextSpace10CText2>
+<vTextSpace8CTextDate><![CDATA[//div[@class='schedule-border']//tr/td[contains(text(),'Nov 10th and 11th')]]]></vTextSpace8CTextDate>
+<vTextSpace8CTextStatus><![CDATA[//div[@class='schedule-border']//tr/td[contains(text(),'Cancelled ')]]]></vTextSpace8CTextStatus>
+
+<vTextSpace10CTextDate><![CDATA[//div[@class='schedule-border']//tr/td[contains(text(),'Dec 8th and 9th')]]]></vTextSpace10CTextDate>
+<vTextSpace10CTextStatus><![CDATA[//div[@class='schedule-border']//tr/td[contains(text(),'FULL')]]]></vTextSpace10CTextStatus>
+<vTextSpace10CTextAddressT><![CDATA[//div[@class='schedule-border']//tr[5]/td[@colspan='2']]]></vTextSpace10CTextAddressT>
+<vTextSpace10CTextAddressP><![CDATA[//div[@class='schedule-border']//tr[5]/td/p[@class='schedule-address']]]></vTextSpace10CTextAddressP>
+<vSpace4HeightSecondText><![CDATA[//div[@class='schedule-border ']/table[@class='table table-borderless']]]></vSpace4HeightSecondText>
+
+</VerifyPixels>
+</Locators>

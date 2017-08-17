@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <UploadCart>
+       <ClickWelcome><![CDATA[//li[@class='logged_in']]]></ClickWelcome>
+       <ClickUploadCart><![CDATA[//a[contains(text(),'Upload Order List')]]]></ClickUploadCart>
+       <vSpace5Height><![CDATA[//div[@id='stepId1']]]></vSpace5Height>
+       <vSpace15Height><![CDATA[//span[@class='popup-close close-popup-step-1']]]></vSpace15Height>
+       <textSpace15Height><![CDATA[//h1[contains(text(),'Upload Cart')]]]></textSpace15Height>
+       <gutter34Width><![CDATA[//span[@id='upload-file-status']]]></gutter34Width>
+       <vSpace9Height><![CDATA[//button[@class='btn btn-blue-primary up-btn']]]></vSpace9Height>
+       <vSpace9Height1><![CDATA[//label[@class='btn']]]></vSpace9Height1>
+       <vSpace9Height2><![CDATA[//p[@class='form-upload']]]></vSpace9Height2>
+   </UploadCart>
+</Locators>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+<B2B_CheckOutPage>
+<EnterQuantity><![CDATA[//div[@class="clearfix"]//input[@id="qty"]]]></EnterQuantity>
+<ClickAddtoCartbutton><![CDATA[//div[@class="clearfix"]//button[@class="addToCartButton"]]]></ClickAddtoCartbutton>
+<ClickCartLink><![CDATA[//span[@class="minicart cart-label"]]]></ClickCartLink>
+<ClickViewCartLink><![CDATA[//div[@class="view-cart-wrapper"]//a[@class="btn-view-cart"]]]></ClickViewCartLink>
+<checkoutbutton><![CDATA[//button[@id='checkout-id']]]></checkoutbutton>
+<ordernow><![CDATA[//input[@id='orderType2']]]></ordernow>
+<vSpace1HeightHeader><![CDATA[//h2[@class="page-title"]]]></vSpace1HeightHeader>
+ <RefNumber><![CDATA[//input[@id='referenceNumber']]]></RefNumber>
+<vSpace4Height1><![CDATA[//h2[@class="page-title"]]]></vSpace4Height1>
+<vSpace4Height2><![CDATA[//div[@class="shoppingAccountTemplate"]]]></vSpace4Height2>
+<vSpace12Height><![CDATA[//div[@class='panel-wrapper']]]></vSpace12Height>
+<vspace12Height1><![CDATA[//table[@class="table-summary"]]]></vspace12Height1>
+<vSpace12Height2><![CDATA[//td[contains(text(),'Reference Number')]]]></vSpace12Height2>
+<textSpace1HeightabovePlaceHolder><![CDATA[//table[@class="table-action"]]]></textSpace1HeightabovePlaceHolder>
+<gap9Width><![CDATA[//button[contains(text(), 'Check Out')]]]></gap9Width>
+<gap9WidthSendemail><![CDATA[//div[@class="right"]]]></gap9WidthSendemail>
+<vSpace1HeightFooter><![CDATA[//div[@class='yCmsContentSlot footer']]]></vSpace1HeightFooter>
+<vSpace1HeightFooter1><![CDATA[//div[@class="shoppingAccountTemplate"]]]></vSpace1HeightFooter1>
+<vSpace10HeightbelowImage><![CDATA[//div[@class="details"]]]></vSpace10HeightbelowImage>
+<vSpace10Heightbelowimagetext><![CDATA[//span[@class="volumeUtilization"]]]></vSpace10Heightbelowimagetext>
+<vSpace10Heightaboveimage><![CDATA[//div[@class='cube-item']]]></vSpace10Heightaboveimage>
+</B2B_CheckOutPage>
+</Locators>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <UnifiedBrandPage>
+       <ClickBrandMenu><![CDATA[//a[contains(text(),'Brands')]]]></ClickBrandMenu>
+    </UnifiedBrandPage>  
+    <VerifyPixels>
+       <MidasBrandLogo><![CDATA[//div[@class='col-xs-4 brands_page_logos']]]></MidasBrandLogo>
+       <Klarkteknik><![CDATA[//div[@class='col-xs-4 brands_page_logos'][2]]]></Klarkteknik>
+       <LabGruppen><![CDATA[//div[@class='col-xs-4 brands_page_logos'][3]]]></LabGruppen>
+       <Lake><![CDATA[//div[@class='col-xs-4 brands_page_logos'][4]]]></Lake>
+       <Tannoy><![CDATA[//div[@class='col-xs-4 brands_page_logos'][5]]]></Tannoy>
+       <Turbosound><![CDATA[//div[@class='col-xs-4 brands_page_logos'][6]]]></Turbosound>
+       <TCElctronics><![CDATA[//div[@class='col-xs-4 brands_page_logos'][7]]]></TCElctronics>
+       <TCHelicon><![CDATA[//div[@class='col-xs-4 brands_page_logos'][8]]]></TCHelicon>
+       <Behringer><![CDATA[//div[@class='col-xs-4 brands_page_logos'][9]]]></Behringer>
+       <Buger><![CDATA[//div[@class='col-xs-4 brands_page_logos'][10]]]></Buger>
+       <DDA><![CDATA[//div[@class='col-xs-4 brands_page_logos'][11]]]></DDA>
+       <EuroCom><![CDATA[//div[@class='col-xs-4 brands_page_logos'][12]]]></EuroCom>
+       <vSpace1Heightbelowlogos><![CDATA[//section[@class='row brands_page_logos-container']]]></vSpace1Heightbelowlogos>
+       <vSpace1HeightMidastext><![CDATA[//div[@class='callout-box-image']/div]]></vSpace1HeightMidastext>
+       <vSpace1HeightMidasimage><![CDATA[//div[@class='col-xs-6']//div[@class='vertical-center']]]></vSpace1HeightMidasimage>
+       <vSpace1HeightKlarkteckniktext><![CDATA[//div[@class='col-xs-6'][1]//div[@class='vertical-center']]]></vSpace1HeightKlarkteckniktext>
+       <vSpace1HeightKlarktecknikimage><![CDATA[//div[@class='our-story-fullwidth-paragraph-banner  klarkteknik']//div[@class='callout-box-image call-out-margin']/div]]></vSpace1HeightKlarktecknikimage>
+       <CallOutbodycopywidthKlartechnikimage><![CDATA[//div[@class='our-story-fullwidth-paragraph-banner  klarkteknik']//div[@class='callout-box-image call-out-margin']]]></CallOutbodycopywidthKlartechnikimage>
+       <CallOutbodycopywidthKlartechniktext><![CDATA[//div[@class='our-story-fullwidth-paragraph-banner  klarkteknik']//div[@class='callout-box-cont']]]></CallOutbodycopywidthKlartechniktext>
+       <vSpace1HeightDDAimage><![CDATA[//div[@class='our-story-fullwidth-paragraph-banner  klarkteknik']//div[@class='callout-box-cont']/div]]></vSpace1HeightDDAimage>
+       <vSpace1HeightDDAtext><![CDATA[//div[@class='our-story-fullwidth-paragraph-banner DDA']//div[@class='vertical-center']]]></vSpace1HeightDDAtext>
+     </VerifyPixels>
+    
+</Locators>

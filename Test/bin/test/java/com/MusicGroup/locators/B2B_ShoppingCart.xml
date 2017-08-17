@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<B2B_ShoppingCart>
+ <vSpace1Locator><![CDATA[//h2[@class='page-title']]]></vSpace1Locator>
+ <ClickCartLocator><![CDATA[//span[@class="minicart cart-label"]]]></ClickCartLocator>
+ <viewCartlocator><![CDATA[//a[@class="btn-view-cart"]]]></viewCartlocator>
+ <vSpace12Heightaboverefrence><![CDATA[//table[@class='table-summary']]]></vSpace12Heightaboverefrence>
+<textSpace4><![CDATA[//table[@class='table-summary']//td[starts-with(text(), 'Document Date')]]]></textSpace4>
+<vspace12Height><![CDATA[//table[@class='table-summary']//td[starts-with(text(), 'Delivery Mode')]]]></vspace12Height>
+<vspave12abovedeliveryaddress><![CDATA[//tr[@class="h-line"]]]></vspave12abovedeliveryaddress>
+<vspave12abovedeliveryaddress1><![CDATA[//tr[@class="forward-agent"]]]></vspave12abovedeliveryaddress1>
+<textSpace4Height><![CDATA[//td[starts-with(text(), 'Volume (CBM)')]]]></textSpace4Height>
+<vspace12Heightabovecart><![CDATA[//div[@id='measureit_box']]]></vspace12Heightabovecart>
+<gap36widthlocator1><![CDATA[//span[@class="action-order"]/i]]></gap36widthlocator1>
+<celldemension40><![CDATA[//td[@class="prod-order"]]]></celldemension40>
+<celldemension40lastcol><![CDATA[//td[@class="prod-del"]]]></celldemension40lastcol>
+<celldemensionlocator1><![CDATA[//td[@class="prod-desc"]]]></celldemensionlocator1>
+<celldemension39locator><![CDATA[//td[@class="prod-thumb"]]]></celldemension39locator>
+<celldemension38locator><![CDATA[//tbody/tr[1]/td[3]/img]]></celldemension38locator>
+<celldemension37locator><![CDATA[//tbody/tr[1]/td[3]]]></celldemension37locator>
+<gap9width><![CDATA[//button[@class="btn btn-primary-gray commonPopup"]]]></gap9width>
+<gap17width><![CDATA[//table[@class="table-action"]//td/button[2]]]></gap17width>
+<gap9widthcheckout><![CDATA[//button[@id="checkout-id"]]]></gap9widthcheckout>
+<textspace1locatorfootercol><![CDATA[//table[@class="table-action"]//td]]></textspace1locatorfootercol>
+<textspace1locatorbutton><![CDATA[//table[@class="table-action"]//td/button]]></textspace1locatorbutton>
+<v1spacelocatoarfooter><![CDATA[//div[@class="yCmsContentSlot footer"]]]></v1spacelocatoarfooter>
+<gutter17widthlocator><![CDATA[//tbody[@aria-live="polite"]//td[3]]]></gutter17widthlocator>
+<celldemsnion42locatorCN><![CDATA[//tbody[@aria-live="polite"]//td[5]]]></celldemsnion42locatorCN>
+<celldemsnion42locatorUnitPrice><![CDATA[//tbody[@aria-live="polite"]//td[6]]]></celldemsnion42locatorUnitPrice>
+<celldemsnion42locatorUnitPerMC><![CDATA[//tbody[@aria-live="polite"]//td[7]]]></celldemsnion42locatorUnitPerMC>
+<celldemsnion42locatorMCPrice><![CDATA[//tbody[@aria-live="polite"]//td[8]]]></celldemsnion42locatorMCPrice>
+<celldemsnion42locatorAvailableMCQTY><![CDATA[//tbody[@aria-live="polite"]//td[9]]]></celldemsnion42locatorAvailableMCQTY>
+<celldemsnion42locatorMCOrdered><![CDATA[//tbody[@aria-live="polite"]//td[10]]]></celldemsnion42locatorMCOrdered>
+<celldemsion37locatortotoalPrice><![CDATA[//tbody[@aria-live="polite"]//td[13]]]></celldemsion37locatortotoalPrice>
+<textSpace3Locator><![CDATA[//tbody[@aria-live="polite"]//td[4]/h3]]></textSpace3Locator>
+<textSpace13locator><![CDATA[//tbody[@aria-live="polite"]//td[4]/p[2]]]></textSpace13locator>
+</B2B_ShoppingCart>
+</Locators>

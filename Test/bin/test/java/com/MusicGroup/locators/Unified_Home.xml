@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <Home>
+       <MusicGroupLogo><![CDATA[//*[contains(@class,'logo-holder')]]]></MusicGroupLogo>
+       <VerifySupport><![CDATA[//a[contains(.,'Support')]]]></VerifySupport>
+       <VerifyBanner><![CDATA[//*[@id='home-slider']//a/img]]></VerifyBanner>
+       <VerifyCommunity><![CDATA[//a[contains(.,'Community')]]]></VerifyCommunity>
+       <VerifyBrand><![CDATA[//a[contains(.,'Brands')]]]></VerifyBrand>
+       <VerifyCareer><![CDATA[//a[contains(.,'Careers')]]]></VerifyCareer>
+       <Verifysearchfield><![CDATA[//input[contains(@id,'search')]]]></Verifysearchfield >
+       <Copyright><![CDATA[//*[@id='footerLeftLink']//li[contains(.,'Copyright © 2015')]]]></Copyright >
+       <TermsofUse><![CDATA[//*[contains(@title,'Terms of Use')]]]></TermsofUse >
+       <PrivacyPolicy><![CDATA[//*[contains(@title,'Privacy Policy')]]]></PrivacyPolicy >
+       <SiteMap><![CDATA[//*[contains(@title,'Site Map')]]]></SiteMap >
+       <Careers><![CDATA[//*[contains(@title,'Careers')]]]></Careers >
+       <News><![CDATA[//*[contains(@title,'News')]]]></News >
+       <ContactUs><![CDATA[//*[contains(@title,'Contact Us')]]]></ContactUs>
+       <SpotLights>
+           <Spotlight1><![CDATA[//div[contains(@class,'banner-group')]//div[1]/a]]></Spotlight1>
+           <Spotlight2><![CDATA[//div[contains(@class,'banner-group')]//div[2]/a]]></Spotlight2>
+           <Spotlight3><![CDATA[//div[contains(@class,'banner-group')]//div[3]/a]]></Spotlight3>
+           <Spotlight4><![CDATA[//div[contains(@class,'banner-group')]//div[4]/a]]></Spotlight4>
+       </SpotLights>
+   </Home>
+   <Search>
+       <EnterSearchtext><![CDATA[//input[contains(@id,'search')]]]></EnterSearchtext>
+       <SearchIcon><![CDATA[//*[@id='searchBoxComponent']//input[contains(@class,'button')]]]></SearchIcon>
+       <FirstResult><![CDATA[//*[@id='search-results-grid']//a]]></FirstResult>
+       <ProductTitle><![CDATA[//*[@id='productFeatureList']//h2]]></ProductTitle>
+       <ProductImage><![CDATA[//*[@id='productFeatureList']//img]]></ProductImage>
+    </Search> 
+    <ProductPage>
+    <MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+    <ClickonMusicGroup><![CDATA[//a[contains(@class,'brand-mg')]]]></ClickonMusicGroup>    
+    <ClickonMidas><![CDATA[//a[contains(@class,'brand-midas')]]]></ClickonMidas>
+    <ClickonKlark><![CDATA[//a[contains(@class,'brand-klarkteknik')]]]></ClickonKlark>
+    <ClickonTurbosound><![CDATA[//a[contains(@class,'brand-turbosound')]]]></ClickonTurbosound>
+    <ClickonBehringer><![CDATA[//a[contains(@class,'brand-behringer')]]]></ClickonBehringer>
+    <ClickonBugera><![CDATA[//a[contains(@class,'brand-bugera')]]]></ClickonBugera>
+    <ClickonDownload><![CDATA[//a[contains(.,'Downloads')]]]></ClickonDownload>
+    <DownloadCenter><![CDATA[//div[contains(@id,'download-center')]]]></DownloadCenter>
+    </ProductPage>
+    <Community>
+       <ClickCommunityLink><![CDATA[//a[contains(.,'Community')]]]></ClickCommunityLink>
+       <ClickBuyNow><![CDATA[//a[contains(.,'Buy Now')]]]></ClickBuyNow>
+       <ClickJoinUS><![CDATA[//a[contains(.,'Join Us')]]]></ClickJoinUS>
+       <ClickSupport><![CDATA[//a[contains(.,'Support')]]]></ClickSupport>
+       <ClickProduct><![CDATA[//a[contains(.,'Products')]]]></ClickProduct>
+    </Community>
+    <Billboard>
+        <Billboardimage><![CDATA[//div[contains(@class,'inner-carousel-caption')]]]></Billboardimage>
+    </Billboard>
+      
+</Locators>

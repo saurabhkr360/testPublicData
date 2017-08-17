@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<MGPartnerPage>
+<MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+<ClickonBehringer><![CDATA[//a[contains(@class,'brand-behringer')]]]></ClickonBehringer>
+<searchproduct><![CDATA[//input[@id='search']]]></searchproduct>
+<ClickFirstProduct><![CDATA[//div[@class='result-img']/a]]></ClickFirstProduct>
+<ClickFeatureMenu><![CDATA[//ul[@id='top-nav-links']/li/a[contains(text(),'Features')]]]></ClickFeatureMenu>
+<ClickWarrantyLink><![CDATA[//a[@href='/support/warranty-condition']]]></ClickWarrantyLink>
+<ClickPartnerLink><![CDATA[//a[@href='/partners']]]></ClickPartnerLink>
+<ClickonPartnerLink><![CDATA[link=http://www.music-group.com/partners]]></ClickonPartnerLink>
+<vspace1heightlocator><![CDATA[//div[@class='col-xs-12']/h1]]></vspace1heightlocator>
+<vspace1heightbodylocator><![CDATA[//body]]></vspace1heightbodylocator>
+<vspace4heightlocator><![CDATA[//div[@class="col-xs-12"]/h1[text()='Partners']]]></vspace4heightlocator>
+<vSpace14Hight><![CDATA[//table[@id='partnersTable']//th[text()='Country']]]></vSpace14Hight>
+<vTextSpace4Heightlocator><![CDATA[//table[@id='partnersTable']//td[3]//span[text()='Product Support: ']]]></vTextSpace4Heightlocator>
+<vTextSpace13Heightlocator><![CDATA[//table[@id='partnersTable']//tr[2]//td[3]//span[text()='Address: ']]]></vTextSpace13Heightlocator>
+<vTextspace17Height2spanlocator><![CDATA[//table[@id='partnersTable']//tr[2]//td[3]//span[@class='span-right']]]></vTextspace17Height2spanlocator>
+<vTextSpace16HeightLocator><![CDATA[//table[@id='partnersTable']//td[text()='Argentina']]]></vTextSpace16HeightLocator>
+<gap17widthlocator><![CDATA[//table[@id='partnersTable']//td[text()='Argentina']]]></gap17widthlocator>
+<vspace1hightlocatoronfooter><![CDATA[//footer[@class="copy-right-simple"]]]></vspace1hightlocatoronfooter>
+<vspaceh1hightlocatortable><![CDATA[//table[@id='partnersTable']]]></vspaceh1hightlocatortable>
+<vSpace16HeightLocatorBelarus><![CDATA[//table[@id='partnersTable']//td[text()='Belarus']]]></vSpace16HeightLocatorBelarus>
+<vspace1heightlocatorspan24><![CDATA[//div[@class='yCmsComponent span-24 section1 cms_disp-img_slot']]]></vspace1heightlocatorspan24>
+<vSpace4heightlocatorabovetable><![CDATA[//table[@id='partnersTable']]]></vSpace4heightlocatorabovetable>
+<vSpace10HeightCountry><![CDATA[//th[contains(text(),'Country')]]]></vSpace10HeightCountry>
+<vSpace10HeightCompany><![CDATA[//th[contains(text(),'Company')]]]></vSpace10HeightCompany>
+<vSpace16HeightArgentina><![CDATA[//td[contains(text(),'Argentina')]]]></vSpace16HeightArgentina>
+<vSpace16HeightArgintina2col><![CDATA[//table[@id='partnersTable']/tbody/tr[2]/td[2]]]></vSpace16HeightArgintina2col>
+<TextSpace4Height2dd><![CDATA[//table[@id='partnersTable']/tbody/tr/td[3]//dd[2]/span[@class='span-right']]]></TextSpace4Height2dd>
+<TextSpace4Height2dd1><![CDATA[//table[@id='partnersTable']/tbody/tr/td[3]//dd[1]/span[@class='span-right']]]></TextSpace4Height2dd1>
+
+</MGPartnerPage>
+</Locators>

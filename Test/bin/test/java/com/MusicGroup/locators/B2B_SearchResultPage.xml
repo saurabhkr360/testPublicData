@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<B2B_SearchResultPage>
+<entertextinserachfield><![CDATA[//input[@id='search']]]></entertextinserachfield>
+<gutter28Widthpagination><![CDATA[//div[@class='panel panel-default mc-paging']]]></gutter28Widthpagination>
+<gutter28Widthpagination1><![CDATA[//div[@class='col-xs-3 totalResults']]]></gutter28Widthpagination1>
+<gutter28Widthpagination2><![CDATA[//div[@class='pull-left page-numbers']]]></gutter28Widthpagination2>
+<gap17Widthlocator><![CDATA[//ul[@class="paginator"]]]></gap17Widthlocator>
+<gap17widthlocator1><![CDATA[//ul[@class="paginator"]/li]]></gap17widthlocator1>
+<gap36Widthlocator><![CDATA[//ul[@class="paginator"]/li[2]]]></gap36Widthlocator>
+<gap36Widthlocator1><![CDATA[//ul[@class="paginator"]/li[3]]]></gap36Widthlocator1>
+<gap17widthsoryby><![CDATA[//label[@class="left"]]]></gap17widthsoryby>
+<gap17widthsorybydropdown><![CDATA[//select[@id='sortOptions1']]]></gap17widthsorybydropdown>
+<gap17widthRight><![CDATA[//form[@id='sort_form1']]]></gap17widthRight>
+<gap17widthRight><![CDATA[//form[@id='sort_form1']]]></gap17widthRight>
+<vSpace1Heightlocator><![CDATA[//div[@class='yCmsContentSlot footer']]]></vSpace1Heightlocator>
+<vspace1heightlocatorabovecopy><![CDATA[//footer[@class="copy-right-simple"]]]></vspace1heightlocatorabovecopy>
+</B2B_SearchResultPage>
+</Locators>

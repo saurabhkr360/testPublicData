@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <Login>
+       <EnterUserName><![CDATA[//input[contains(@id,'j_username')]]]></EnterUserName>
+       <EnterPassword><![CDATA[//input[contains(@id,'j_password')]]]></EnterPassword>
+       <ClickSubmit><![CDATA[//button[contains(.,'Sign In')]]]></ClickSubmit>
+       <VerifyStoreLink><![CDATA[//a[contains(@title,'Store')]]]></VerifyStoreLink>
+   </Login>
+   <SignInPage>
+   <vSpace1HeightHeader><![CDATA[//div[@class='mg-login']]]></vSpace1HeightHeader>
+   <vSpace1HeightAboveMusicId><![CDATA[//div[@class='mg-login-info']]]></vSpace1HeightAboveMusicId>
+   <vSpace1HeightMusicIdText><![CDATA[//h2[contains(text(), 'Music ID Sign In')]]]></vSpace1HeightMusicIdText>
+   <vSpace35Hight><![CDATA[//div[@class="content"]/p]]></vSpace35Hight>
+   <gutter16width><![CDATA[//div[@class='mg-login-info']]]></gutter16width>
+   <vSpace1Height2box><![CDATA[//div[@class="mg-login-form"]]]></vSpace1Height2box>
+   <textSpace10Height><![CDATA[//div[@class="form-group1"]]]></textSpace10Height>
+   <textSpace10heighttext><![CDATA[//a[@class='password-forgotten-new']]]></textSpace10heighttext>
+   </SignInPage>
+   
+</Locators>

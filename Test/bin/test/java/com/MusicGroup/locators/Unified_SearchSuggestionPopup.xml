@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<UnifiedSearchSuggestionPopup>
+<entertextinserachfield><![CDATA[//input[@id='search']]]></entertextinserachfield>
+<Gutter17WidthList1><![CDATA[//li[@class='suggestions common-search-item ui-menu-item']/a]]></Gutter17WidthList1>
+<Gutter17WidthList2><![CDATA[//li[@class='suggestions common-search-item ui-menu-item'][2]/a]]></Gutter17WidthList2>
+<Gutter17WidthList3><![CDATA[//li[@class='suggestions common-search-item ui-menu-item'][3]/a]]></Gutter17WidthList3>
+<Gutter17WidthList4><![CDATA[//li[@class='suggestions common-search-item ui-menu-item'][4]/a]]></Gutter17WidthList4>
+<Gutter17WidthList5><![CDATA[//li[@class='suggestions common-search-item ui-menu-item'][5]/a]]></Gutter17WidthList5>
+<Gutter17WidthListRecommendedResult1><![CDATA[//li[@class='product recommended-result-item ui-menu-item'][1]/a]]></Gutter17WidthListRecommendedResult1>
+<Gutter17WidthListRecommendedResult3><![CDATA[//li[@class='product recommended-result-item ui-menu-item'][3]/a]]></Gutter17WidthListRecommendedResult3>
+<Gutter17WidthListCommonSearch1><![CDATA[//li[@class='categories common-search-item ui-menu-item'][1]/a]]></Gutter17WidthListCommonSearch1>
+<Gutter17WidthListCommonSearch3><![CDATA[//li[@class='categories common-search-item ui-menu-item'][3]/a]]></Gutter17WidthListCommonSearch3>
+<SelectedField55><![CDATA[//li[@class='suggestions common-search-item ui-menu-item'][5]]]></SelectedField55>
+<TextSpace10Height><![CDATA[//li[@class='product recommended-result-item ui-menu-item'][1]]]></TextSpace10Height>
+<textSpace10Heightabovecommonserach><![CDATA[//li[@class='categories common-search-item ui-menu-item']]]></textSpace10Heightabovecommonserach>
+<vSpace18Heightlast><![CDATA[//li[@class='categories common-search-item ui-menu-item'][3]/a]]></vSpace18Heightlast>
+<vSpace17HeightcommonSearch><![CDATA[//li[@class='suggestions common-search-item ui-menu-item']]]></vSpace17HeightcommonSearch>
+<test><![CDATA[ul.ui-autocomplete.close-btn-search.ui-menu.ui-widget.ui-widget-content.ui-corner-all>li]]></test>
+</UnifiedSearchSuggestionPopup>
+
+</Locators>

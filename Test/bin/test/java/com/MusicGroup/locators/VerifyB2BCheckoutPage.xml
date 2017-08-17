@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <LoginPage>
+   <VerifyLogoOnLogin><![CDATA[//div[@class='yCmsComponent siteLogo']/a[@class='logo-holder']/img[@src='//prep-media.music-group.com/media/sys_master/hc1/hd8/8830401511454.png']]]></VerifyLogoOnLogin>
+   <VerifySignInHeading><![CDATA[//div[@class='yCmsContentSlot left-login']/div[@class='content']/h2[contains(text(),'Music ID Sign In')]]]></VerifySignInHeading>
+   <VerifyMusicGroupID><![CDATA[//div[@class='control-group']/div[@class='form_field-input']/input[@id='j_username']]]></VerifyMusicGroupID>
+   <VerifyMusicGroupPassword><![CDATA[//div[@class='control-group']/div[@class='form_field-input']/input[@id='j_password']]]></VerifyMusicGroupPassword>
+   <VerifyLogInButton><![CDATA[//span[@class='pull-right']/button[contains(text(), 'Sign In')]]]></VerifyLogInButton>
+   </LoginPage>
+   
+   <StoreHomePage>
+   <VerifyLoggedUser><![CDATA[//div[@class='headerContent ']/ul/li[contains(text(), 'Welcome, MG_PARTNER')]]]></VerifyLoggedUser>
+   <ClickOnMidasBrand><![CDATA[//label[@for='brand_Midas']/span[@class='brand-midas']]]></ClickOnMidasBrand>
+   <ClickOnMixer><![CDATA[//div[@id='mg_facet_Mixers']/h3[contains(text(),'Mixers')]]]></ClickOnMixer>
+   <VerifySearchBox><![CDATA[//form[@name='search_form']/input[@id='search']]]></VerifySearchBox>
+   <ClickOnDSPRouter><![CDATA[//ul[@class='facet_block indent']/li/a[contains(text(),' Digital Mixers')]]]></ClickOnDSPRouter>
+   <TextEnterQuantity><![CDATA[//input[@id='qty']]]></TextEnterQuantity>
+   <ClickonAdtoCart><![CDATA[//button[@class='addToCartButton']]]></ClickonAdtoCart>
+   <ClickonCartOption><![CDATA[//span[@class='minicart cart-label']]]></ClickonCartOption>
+   <ClickonViewCart><![CDATA[//span[@class='minicart cart-label']]]></ClickonViewCart>
+   </StoreHomePage>
+   <ShoppingCart>
+   <VerifyHeadingPage><![CDATA[//h2[contains(text(),'Shopping Cart')]]]></VerifyHeadingPage>
+   <EnterReferenceID><![CDATA[//div[@class='form_field-input-shopping-cart']/input[@id='referenceNumber']]]></EnterReferenceID>
+   <ClickOrderType><![CDATA[//td[@class='order-type']/input[@id='orderType1']]]></ClickOrderType>
+   <ClickOnDeliveryMode><![CDATA[//input[@id='deliveryBy1']]]></ClickOnDeliveryMode>
+   <ShipFromCN><![CDATA[//div[@class='class-h3']]]></ShipFromCN>
+   <SelectDeliveryAddress><![CDATA[//select[@id='deliveryAddress']]]></SelectDeliveryAddress>
+   <ClickOnCheckOutButton><![CDATA[//button[contains(text(),'Check Out')]]]></ClickOnCheckOutButton>
+   </ShoppingCart>
+   <CheckOutPage>
+   <VerifyHeadingOnPage><![CDATA[//h2[contains(text(),'Shopping Cart')]]]></VerifyHeadingOnPage>
+   <verifyReferenceNo><![CDATA[//table[@class='table-summary']/tbody/tr/td]]></verifyReferenceNo>
+   <verifyOrderType><![CDATA[//table[@class='table-summary']/tbody/tr[3]/td]]></verifyOrderType>
+   <VerifyDeliveryMode><![CDATA[//table[@class='table-summary']/tbody/tr[4]/td]]></VerifyDeliveryMode>
+   <verifyAddress><![CDATA[//table[@class='table-summary']/tbody/tr[7]/td]]></verifyAddress>
+   <VerifyPlaceOrderButton><![CDATA[//button[contains(text(), 'Place Order')]]]></VerifyPlaceOrderButton>
+   </CheckOutPage>
+</Locators>

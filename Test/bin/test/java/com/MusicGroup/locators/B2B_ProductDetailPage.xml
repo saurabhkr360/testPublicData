@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<B2B_ProductDetailPage>
+<EnterProductinSearchField><![CDATA[//input[@id='search']]]></EnterProductinSearchField>
+<ClickBehringerx32Product><![CDATA[//div[@class='productListItem']//a[@class='productMainLink']]]></ClickBehringerx32Product>
+<vSpace1Heightabovebreadcrumb><![CDATA[//div[@id='breadcrumb']]]></vSpace1Heightabovebreadcrumb>
+<gap44width><![CDATA[//ul[@class='clearfix']/li/a]]></gap44width>
+<vspace1heightaboveproductimage><![CDATA[//div[@class='preview-feature']]]></vspace1heightaboveproductimage>
+<vSpace2heightlocatorproductname><![CDATA[//div[@class='preview-desc']/h3]]></vSpace2heightlocatorproductname>
+<gap87Widthheight><![CDATA[//div[@class='preview-feature']]]></gap87Widthheight>
+<fixedImageboxA><![CDATA[//div[@id='primary_image']/img]]></fixedImageboxA>
+<gutter27widthgallerImage><![CDATA[//ul[@class='thumbnail-product']/li]]></gutter27widthgallerImage>
+<vSpace1HeightBelowGalleryProduct><![CDATA[//div[@class='product-preview-wrapper']]]></vSpace1HeightBelowGalleryProduct>
+<vSpace1HeightAboveTextname><![CDATA[//div[@class='product-desc']/h3]]></vSpace1HeightAboveTextname>
+<textSpace4Height><![CDATA[//div[@class='product-preview-wrapper']/div[@class='preview-desc']/h3]]></textSpace4Height>
+<textSpace4Height1><![CDATA[//div[@class='product-preview-wrapper']/div[@class='preview-desc']/p]]></textSpace4Height1>
+<gutter45Widthlocator><![CDATA[//div[@class='product-preview-wrapper']/div[@class='preview-desc']]]></gutter45Widthlocator>
+<gutter45widthfirsttable><![CDATA[//div[@class='mc-box preview-purchase']]]></gutter45widthfirsttable>
+<vSpace13HeightAboveAvailabitytextin2col><![CDATA[//div[@class='product-shortmeta']/hr]]></vSpace13HeightAboveAvailabitytextin2col> 
+<vSpace13HeightAboveWeight><![CDATA[//div[@class='product-shortmeta']/p[5]]]></vSpace13HeightAboveWeight>
+<vSpace13HeightAboveAvailablitytext><![CDATA[//div[@class='product-shortmeta']/p[6]]]></vSpace13HeightAboveAvailablitytext>
+<textSpace5HeightAbovePrice><![CDATA[//p[@class='pricing text-center']]]></textSpace5HeightAbovePrice>
+<textSpace5Heightbelowinputbox><![CDATA[//p[@class='qty preview-action text-center']]]></textSpace5Heightbelowinputbox>
+<vSpace9Height><![CDATA[//div[@class='mc-box preview-purchase']]]></vSpace9Height>
+<vSpace2Locatorabovesupportlogo><![CDATA[//div[@class='mc-box mc-box-support']]]></vSpace2Locatorabovesupportlogo>
+<textSpace1Heightbelowproductname><![CDATA[//div[@class='product-desc-wrapper']/div/h3]]></textSpace1Heightbelowproductname>
+<textspace1Height><![CDATA[//ul[@class='list-icon-orange']]]></textspace1Height>
+<textSpaceHeight1><![CDATA[//div[@class='product-desc-wrapper']/div/p]]></textSpaceHeight1>
+<textSpace1Height><![CDATA[//ul[@class='list-icon-orange']/li]]></textSpace1Height>
+<vSpace1HeightAboveImageGallery><![CDATA[//div[@class='product-desc']/hr]]></vSpace1HeightAboveImageGallery>
+<vSpace2HeightinReleatedProduct><![CDATA[//li[@class='widget-item']]]></vSpace2HeightinReleatedProduct>
+<gap17Width><![CDATA[//li[@class='widget-item']]]></gap17Width>
+<vSpaceHeightinreview><![CDATA[//li[@class='widget-item']]]></vSpaceHeightinreview>
+<textSpace5Height11><![CDATA[//a[@class='btn-write-review']]]></textSpace5Height11>
+<gutter27widthinimagegallery><![CDATA[//span[@class='thumbImage']/a/img]]></gutter27widthinimagegallery>
+<gap17widthImageGallery><![CDATA[//ul[@class='productImageList']/li]]></gap17widthImageGallery>
+<vSpace2heightImageGallery><![CDATA[//h4[contains(text(),'Image Gallery')]]]></vSpace2heightImageGallery>
+<vSpace1Heightfooter><![CDATA[//div[@class='yCmsContentSlot footer']]]></vSpace1Heightfooter>
+<vSpace1Heightfooter1><![CDATA[//ul[@class='productImageList']]]></vSpace1Heightfooter1>
+</B2B_ProductDetailPage>
+</Locators>

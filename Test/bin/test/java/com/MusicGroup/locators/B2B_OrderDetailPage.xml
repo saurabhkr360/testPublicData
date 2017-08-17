@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <OrdersPage>
+     <ClickOrder><![CDATA[//a[@title='Orders']]]></ClickOrder>
+     <vSpace1HeightOrderHistory><![CDATA[//h2[contains(text(),'Order History')]]]></vSpace1HeightOrderHistory>
+     <vspace12HeightSearchfilter><![CDATA[//div[@id="searchFilter"]]]></vspace12HeightSearchfilter>
+     <gap44Widthshoppingicon><![CDATA[//i[@class='icon icon-shopping-help']]]></gap44Widthshoppingicon>
+     <vSpace4Height><![CDATA[//div[@class="panel-body Orderhistory_panel-body"]]]></vSpace4Height>
+     <gutter16width><![CDATA[//div[@class="col-xs-6 form-group-left"]]]></gutter16width>
+     <vSpace9Height><![CDATA[//div[@class="col-xs-6 form-group-left"]/div[2]]]></vSpace9Height>
+     <vSpace9Height1><![CDATA[//div[@class="col-xs-6 form-group-left"]/div[3]]]></vSpace9Height1>
+     <vSpace9Height2><![CDATA[//div[@class="col-xs-6 form-group-left"]/div[4]]]></vSpace9Height2>
+     <gap17widthcalendar><![CDATA[//div[@class="col-xs-8 date-range"]]]></gap17widthcalendar>
+     <vSpace10height><![CDATA[//div[@class="panel panel-default mc-paging"]]]></vSpace10height>
+     <gutter8width><![CDATA[//div[@class="col-xs-6 form-group-right"]]]></gutter8width>
+     <gutter8width1><![CDATA[//div[@class="col-xs-6 form-group-left"]]]></gutter8width1>
+     <vSpace15Height><![CDATA[//div[@class="panel-body page-nav-bg top paginationBar clearfix"]]]></vSpace15Height>
+     <vSpace15Height1><![CDATA[//ul[@class='paginator']/li[2]/a]]></vSpace15Height1>
+     <vspace10Height2><![CDATA[//div[@class='mc-order-table']]]></vspace10Height2>
+     <gap17width><![CDATA[//th[@class='header sortable has-dropdown']/a]]></gap17width>
+     <vSpace16Height><![CDATA[//th[@class='header sortable has-dropdown']/a]]></vSpace16Height>
+     <gap17width2col><![CDATA[//th[@class="header sortable"]/a]]></gap17width2col>
+     <vSpace16Height2col><![CDATA[//th[@class="header sortable"]/a]]></vSpace16Height2col>
+     <gap17width3col><![CDATA[//th[@class='header sortable has-dropdown']/a]]></gap17width3col>
+     <vSpace16Height3col><![CDATA[//th[@class='header sortable has-dropdown']/a]]></vSpace16Height3col>
+     <gap17width4col><![CDATA[//th[@class='header sortable has-dropdown']/a]]></gap17width4col>
+     <vSpace16Height4col><![CDATA[//th[@class='header sortable has-dropdown']/a]]></vSpace16Height4col>
+     <gap17width6col><![CDATA[//th[@class="header sortable"]/a]]></gap17width6col>
+     <vSpace16Height6col><![CDATA[//th[@class="header sortable"]/a]]></vSpace16Height6col>
+     <celldemension53><![CDATA[//td[@class='text-center']]]></celldemension53>
+     <celldemension532col><![CDATA[//td[@class='text-center'][2]]]></celldemension532col>
+     <celldemension533col><![CDATA[//td[@class='text-center'][3]]]></celldemension533col>
+     <celldemension54col><![CDATA[//td[@class='Number-Text']]]></celldemension54col>
+     <vSpace10Heightlast><![CDATA[//div[@class='panel panel-default mc-paging']]]></vSpace10Heightlast>
+     <vSpace16Heightlast><![CDATA[//div[@class="panel-body page-nav-bg bottom paginationBar clearfix"]]]></vSpace16Heightlast>
+     <vSpace1Heightlast><![CDATA[//div[@class="column accountContentPane clearfix orderList"]]]></vSpace1Heightlast>
+     <gutter45widthnext><![CDATA[//a[@class='next']]]></gutter45widthnext>
+     <gutter45widthnext1><![CDATA[//a[@class='showAll']]]></gutter45widthnext1>
+   </OrdersPage>
+</Locators>

@@ -1,0 +1,525 @@
+<?xml version="1.0"?>
+
+<project name="MusicGroup" default="runAll" basedir=".">
+
+	<!-- ====== Initialize Properties ====== -->
+	<property environment="env" />
+	<property name="test.src" location="src\test\java\com\MusicGroup" />
+	<property name="test.dest" location="build" />
+	<property name="test.lib" location="lib" />
+	<property name="test.result" location="test-output" />
+
+	<!-- ====== Include required jar files and set classpath ====== -->
+	<path id="test.classpath">
+		<pathelement location="${test.dest}" />
+		<fileset dir="${test.lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- ====== Check for ANT setup ====== -->
+	<tstamp>
+		<format property="date" pattern="MMddyyyy" />
+		<format property="time" pattern="hhmmss" />
+	</tstamp>
+
+	<!-- ====== Delete old compiled classes ====== -->
+	<target name="clean">
+		<delete dir="test-output" />
+		<delete dir="build" />
+		<!-- ====== <delete dir="${test.dest}" />  ====== -->
+		<delete dir="${classes.dir}" failonerror="false"/>
+	</target>
+
+	<!-- ====== TestNG task definition ====== -->
+	<taskdef name="testng" classpathref="test.classpath" classname="org.testng.TestNGAntTask" />
+
+	<!-- ====== Compile all java files ====== -->
+	<target name="compile" depends="clean">
+		<echo message="making directory..." />
+		<mkdir dir="test-output" />
+		<mkdir dir="${test.dest}" />
+		<echo message="classpath: ${test.classpath}" />
+		<echo message="compiling..." />
+		<javac debug="true" destdir="${test.dest}" includeantruntime="true" includes="**/*.java, scripts/*/*.java" srcdir="${test.src}">
+			<classpath refid="test.classpath" />
+		</javac>
+	</target>
+
+	<!-- ====== Run All tests ====== -->
+	<target name="runAll" depends="compile">
+		<testng classpathref="test.classpath" suitename="AllTest">
+			<xmlfileset dir="config" includes="*.xml" />
+		</testng>
+	</target>
+
+	<target name="All" depends="compile">
+		<testng classpathref="test.classpath" suitename="Automation" haltonfailure="true">
+			<xmlfileset dir="config" includes="All.xml" />
+		</testng>
+	</target>
+	<target name="test" depends="compile">
+			<testng classpathref="test.classpath" suitename="Automation" haltonfailure="true">
+				<xmlfileset dir="config" includes="test.xml" />
+			</testng>
+		</target>
+	<target name="B2B" depends="compile">
+		<testng classpathref="test.classpath" suitename="Automation" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStoryALLPages" depends="compile">
+		<testng classpathref="test.classpath" suitename="Automation" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStoryALLPages.xml" />
+		</testng>
+		</target>
+		
+		<target name="MidasOurStories" depends="compile">
+			<testng classpathref="test.classpath" suitename="Automation" haltonfailure="true">
+				<xmlfileset dir="config" includes="MidasOurStories.xml" />
+			</testng>
+	
+	</target>
+	<target name="JoinUS" depends="compile">
+			<testng classpathref="test.classpath" suitename="Automation" haltonfailure="true">
+				<xmlfileset dir="config" includes="JoinUS.xml" />
+			</testng>
+	
+	</target>
+	
+	<target name="WhatWeDoCareer" depends="compile">
+				<testng classpathref="test.classpath" suitename="Automation" haltonfailure="true">
+					<xmlfileset dir="config" includes="WhatWeDoCareer.xml" />
+				</testng>
+		
+		</target>
+
+	<!-- ========================================= B2B Store Test Scripts ==================================================== -->
+
+	<target name="Login_B2B" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Login_B2B.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_279" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_279.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_280" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_280.xml" />
+		</testng>
+
+	</target>
+	<target name="SHMEP_281" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_281.xml" />
+		</testng>
+	</target>
+	<target name="SHMEP_282" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_282.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_285" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_285.xml" />
+		</testng>
+
+	</target>
+	<target name="SHMEP_286" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_286.xml" />
+		</testng>
+	</target>
+
+	<target name="B2B_ShoppingCart" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_ShoppingCart.xml" />
+		</testng>
+	</target>
+	<target name="B2B_ProductReview" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_ProductReview.xml" />
+		</testng>
+	</target>
+
+	<target name="B2B_RegistraionPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_RegistrationPage.xml" />
+		</testng>
+	</target>
+	<target name="B2B_SearchResultPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_SearchResult.xml" />
+		</testng>
+	</target>
+	<target name="B2B_SearchSuggestionPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_SearchSuggestion.xml" />
+		</testng>
+	</target>
+	<target name="B2B_ViewAccountPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_ViewAccountPage.xml" />
+		</testng>
+	</target>
+	<target name="B2B_SiteMapPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_SiteMapPage.xml" />
+		</testng>
+	</target>
+	<!-- =========================================B2B Hourly Check================================================ -->
+	<target name="B2B_HourlyCheck" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="B2B_HourlyCheck.xml" />
+		</testng>
+	</target>
+
+	<!-- ========================================= Unified Test Scripts ==================================================== -->
+
+	<target name="MG_Home" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="MG_Home.xml" />
+		</testng>
+	</target>
+
+	<target name="Product_Feature_Page" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Product_Feature_Page.xml" />
+		</testng>
+	</target>
+
+
+	<target name="Product_Overview_Page" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Product_Overview_Page.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_238" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_238.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_319" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_319.xml" />
+		</testng>
+
+	</target>
+	<target name="SHMEP_320" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_320.xml" />
+		</testng>
+	</target>
+	<target name="SHMEP_321" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_321.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_322" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_322.xml" />
+		</testng>
+
+	</target>
+	<target name="SHMEP_323" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_323.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_324" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_324.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_325" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_325.xml" />
+		</testng>
+
+	</target>
+	<target name="SHMEP_326" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_326.xml" />
+		</testng>
+	</target>
+	<target name="SHMEP_327" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_327.xml" />
+		</testng>
+	</target>
+
+	<target name="SHMEP_328" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_328.xml" />
+		</testng>
+
+	</target>
+	<target name="SHMEP_331" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="SHMEP_331.xml" />
+		</testng>
+	</target>
+
+	<target name="Download_Center" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Download_Center.xml" />
+		</testng>
+	</target>
+
+	<target name="Ask_A_Question_Page" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Ask_A_Question_Page.xml" />
+		</testng>
+	</target>
+	<target name="Buy_NowPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Buy_Now.xml" />
+		</testng>
+	</target>
+	<target name="Brands_Product_DownloadsPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Brands_Product_Downloads.xml" />
+		</testng>
+	</target>
+	<target name="Home_BrandPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="home_brand_page.xml" />
+		</testng>
+	</target>
+	<target name="MG_Partner_Page" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="MG_Partner_Page.xml" />
+		</testng>
+	</target>
+	<target name="MG_Unified_Global_Support" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="MG_Unified_Global_Support.xml" />
+		</testng>
+	</target>
+	<target name="MG_Warranty" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="MG_Warranty.xml" />
+		</testng>
+	</target>
+	<target name="Midas_Training" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_Training.xml" />
+		</testng>
+	</target>
+	<target name="Product_DiscoveryPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Discovery_Page.xml" />
+		</testng>
+	</target>
+	<!-- ========================================= Midas Our Story Pages ==================================================== -->
+	<target name="Midas_OurStory" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1970" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1970.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1971" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1971.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1974" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1974.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1980" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1980.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1986" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1986.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1987" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1987.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1990" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1990.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1995" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1995.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1996" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1996.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory1998" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory1998.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory2002" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory2002.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory2003" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory2003.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory2004" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory2004.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory2006" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory2006.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory2008" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory2008.xml" />
+		</testng>
+	</target>
+	<target name="Midas_OurStory2009" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="Midas_OurStory2009.xml" />
+		</testng>
+	</target>
+	
+
+	<target name="WhatWeDo_LasVegasCareers" depends="compile">
+				<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+					<xmlfileset dir="config" includes="WhatWeDo_LasVegasCareers.xml" />
+				</testng>
+			</target>	
+			<target name="WhatWeDo_LosAngelesCareers" depends="compile">
+							<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+								<xmlfileset dir="config" includes="WhatWeDo_LosAngelesCareers.xml" />
+							</testng>
+						</target>	
+	<target name="WhatWeDo_ZhongshanCareers" depends="compile">
+					<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+						<xmlfileset dir="config" includes="WhatWeDo_ZhongshanCareers.xml" />
+					</testng>
+				</target>	
+	<target name="MidasTraining_Schedule" depends="compile">
+						<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+							<xmlfileset dir="config" includes="MidasTraining_Schedule.xml" />
+						</testng>
+					</target>	
+	<target name="MidasTraining_OnlineTutorial" depends="compile">
+							<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+								<xmlfileset dir="config" includes="MidasTraining_OnlineTutorial.xml" />
+							</testng>
+						</target>	
+	<target name="JoinUS_HowWeLive" depends="compile">
+							<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+								<xmlfileset dir="config" includes="JoinUS_HowWeLive.xml" />
+							</testng>
+						</target>	
+	<target name="JoinUS_WhatWeDo" depends="compile">
+								<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+									<xmlfileset dir="config" includes="JoinUS_WhatWeDo.xml" />
+								</testng>
+							</target>	
+	<target name="BuyNow_StoreLocation" depends="compile">
+								<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+									<xmlfileset dir="config" includes="BuyNow_StoreLocation.xml" />
+								</testng>
+							</target>	
+	<target name="TurboSound_BecomePartner" depends="compile">
+									<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+										<xmlfileset dir="config" includes="TurboSound_BecomePartner.xml" />
+									</testng>
+								</target>
+	<target name="Midas_BecomePartner" depends="compile">
+										<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+											<xmlfileset dir="config" includes="Midas_BecomePartner.xml" />
+										</testng>
+									</target>
+	<target name="Klarkteknik_BecomePartner" depends="compile">
+										<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+											<xmlfileset dir="config" includes="Klarkteknik_BecomePartner.xml" />
+										</testng>
+									</target>
+									<target name="VerifyImageOnProductPage" depends="compile">
+		<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+			<xmlfileset dir="config" includes="VerifyImageOnProductPage.xml" />
+		</testng>
+	</target>
+			
+			<target name="Creating_Home" depends="compile">
+				<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+				<xmlfileset dir="config" includes="Creating_Home.xml" />
+				</testng>
+			</target>
+			
+			<target name="Install_Page" depends="compile">
+				<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+				<xmlfileset dir="config" includes="Install_Page.xml" />
+				</testng>
+			</target>
+			
+			<target name="LifeStyle_And_HomePage" depends="compile">
+				<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+				<xmlfileset dir="config" includes="LifeStyle_And_HomePage.xml" />
+				</testng>
+			</target>
+	
+	<target name="Live_Page" depends="compile">
+					<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+					<xmlfileset dir="config" includes="Live_Page.xml" />
+					</testng>
+				</target>
+	
+	<target name="MusicInstrument_Page" depends="compile">
+						<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+						<xmlfileset dir="config" includes="MusicInstrument_Page.xml" />
+						</testng>
+					</target>
+	
+	<target name="Brands_Product_Downloads" depends="compile">
+						<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+						<xmlfileset dir="config" includes="Brands_Product_Downloads.xml" />
+						</testng>
+					</target>
+	<target name="SHMEP" depends="compile">
+						<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+						<xmlfileset dir="config" includes="SHMEP.xml" />
+						</testng>
+					</target>
+	
+	<target name="Enterprise_And_Entertainment" depends="compile">
+							<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+							<xmlfileset dir="config" includes="Enterprise_And_Entertainment.xml" />
+							</testng>
+						</target>
+	<target name="VerifyImageOnProductionPage" depends="compile">
+								<testng classpathref="test.classpath" suitename="" haltonfailure="true">
+								<xmlfileset dir="config" includes="VerifyImageOnProductionPage.xml" />
+								</testng>
+							</target>
+</project>

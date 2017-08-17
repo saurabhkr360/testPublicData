@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<MidasTrainingPage>
+<MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+<ClickonMidas><![CDATA[//a[contains(@class,'brand-midas')]]]></ClickonMidas>
+<clickonTraining><![CDATA[//ul[@id="top-nav-links"]/li[7]/a]]></clickonTraining>
+<vspace1height><![CDATA[//div[@class="training-page-margins"]]]></vspace1height>
+<vspave1height2para><![CDATA[//div[@class="training-page-margins"]/section/h1]]></vspave1height2para>
+<vspace4Height><![CDATA[//h1[@class='training-title']]]></vspace4Height>
+<fixedBoxImageWidth><![CDATA[//div[@class='training-billboard']//img]]></fixedBoxImageWidth>
+<vspace4Heightintablecolumn><![CDATA[//div[@class="training-border train-margin-right"]]]></vspace4Heightintablecolumn>
+<vspace4HeightComeExp><![CDATA[//div[@class="training-sub-title"]]]></vspace4HeightComeExp>
+<vSpace14heightinfirstcolumn><![CDATA[//div[@class="training-border train-margin-right"]//p]]></vSpace14heightinfirstcolumn>
+<textspace5locator><![CDATA[//ul[@class="training-list"]//li[text()='- Audio Quality']]]></textspace5locator>
+<textspace5alocator1><![CDATA[//li[starts-with(text(), "Control Centre Hardware Details")]]]></textspace5alocator1>
+<textspace10HeightColm3><![CDATA[//div[@class='no-gutter']//div[3]//div[@class="training-border"]/div[@class='training-sub-title']]]></textspace10HeightColm3>
+<textspace10HeightColmwithoutp><![CDATA[//p[starts-with(text(), "The two day")]]]></textspace10HeightColmwithoutp>
+<textspace10HeightCDMSE><![CDATA[//div[starts-with(text(), "CDMSE")]]]></textspace10HeightCDMSE>
+<textspace10HeightDayTwo><![CDATA[//div[starts-with(text(), "Day Two")]]]></textspace10HeightDayTwo>
+<textspace10heightbelowDaytwo><![CDATA[//strong[starts-with(text(), "Connecting a standard")]]]></textspace10heightbelowDaytwo>
+<gutter28widthlocator><![CDATA[//div[@class="training-border"]]]></gutter28widthlocator>
+<gutter82widthlocator><![CDATA[//div[@class='no-gutter']//div[2]//ul[@class="training-list"][2]]]></gutter82widthlocator>
+<gutter82widthlocator1><![CDATA[//div[@class='no-gutter']//div[2]//ul/li]]></gutter82widthlocator1>
+<vspace1heightlocator><![CDATA[//div[@class="training-page-margins"]]]></vspace1heightlocator>
+<gutter8widthlocator><![CDATA[//div[@class='no-gutter']/div[1]/div[1]]]></gutter8widthlocator>
+<gutter8widthlocatorcol2><![CDATA[//div[@class='no-gutter']/div[2]/div[1]]]></gutter8widthlocatorcol2>
+<gutter8widthlocatorcol3><![CDATA[//div[@class='no-gutter']/div[3]/div[1]]]></gutter8widthlocatorcol3>
+<gutter68widthlocator><![CDATA[//div[@id="training-page"]/ul[@class="list-inline piped"]/li[2]]]></gutter68widthlocator>
+<vspace4Heightbelowcolumn><![CDATA[//div[@class="training-border train-margin-right"]]]></vspace4Heightbelowcolumn>
+<vSpace4Heightfirstcol><![CDATA[//div[@class='training-border']]]></vSpace4Heightfirstcol>
+<vSpace4Heightfirstcoltextheading><![CDATA[//div[@class='training-border']//div[@class='training-sub-title']]]></vSpace4Heightfirstcoltextheading>
+<textSpace1Height1Col><![CDATA[//div[@class='training-border']//p]]></textSpace1Height1Col>
+<textSpace1Height1Col2para><![CDATA[//div[@class='training-border']//p[2]]]></textSpace1Height1Col2para>
+<gutter83width><![CDATA[//ul[@class='training-list'][3]]]></gutter83width>
+<gutter83width1><![CDATA[//li[starts-with(text(), "- Preferences")]/ul/li]]></gutter83width1>
+<textSpace13Height><![CDATA[//p[starts-with(text(), "Whether a student")]]]></textSpace13Height>
+<textSpace5Heightli1><![CDATA[//li[starts-with(text(), "- Audio")]]]></textSpace5Heightli1>
+<textSpace5Heightli2><![CDATA[//li[starts-with(text(), "- AES50 ")]]]></textSpace5Heightli2>
+</MidasTrainingPage>
+</Locators>

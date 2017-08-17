@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<B2B_siteMapPage>
+<ClickSitMapLink><![CDATA[//a[contains(text(), 'Site Map')]]]></ClickSitMapLink>
+<vSpace1Heightlocator><![CDATA[//div[@class='sitemap-page']/h1]]></vSpace1Heightlocator>
+<vSpace4Heightlocator><![CDATA[//div[@class='section']]]></vSpace4Heightlocator>
+<v2Space2Height><![CDATA[//li[@class='yCmsComponent submenu-li first-level dontend']/a]]></v2Space2Height>
+<bodycopyleading><![CDATA[//li[@class='yCmsComponent submenu-li second-level ']/a]]></bodycopyleading>
+<vspace4HeightfooterMidas><![CDATA[//div[@class="brand-part"]]]></vspace4HeightfooterMidas>
+<vspace4HeightfooterMidas1><![CDATA[//div[@class='siteMap footer-navigation-bar brand-links-columns second-sec']/div[3]//li[@class='yCmsComponent submenu-li second-level lastnode']]]></vspace4HeightfooterMidas1>
+<vSpace4Heightklart><![CDATA[//div[@class='section']/div[2]]]></vSpace4Heightklart>
+<bodycopyleadingklart><![CDATA[//div[@class='section']//img[@alt='klarkteknik Logo']]]></bodycopyleadingklart>
+<bodycopyleadingklartaccessories><![CDATA[//div[@class='section']/div[2]//a[contains(text(), 'Accessories')]]]></bodycopyleadingklartaccessories>
+<vSpace4Heightturbosound><![CDATA[//div[@class='section']/div[3]]]></vSpace4Heightturbosound>
+<vSpace4Heightturbosound1><![CDATA[//div[@class="section"]/div[3]//ul//li[@class='yCmsComponent submenu-li second-level lastnode']]]></vSpace4Heightturbosound1>
+<gutter2width><![CDATA[//div[@class='section']/div[4]//div[@class="first column"]]]></gutter2width>
+<vSpace4Heightturbosound2col><![CDATA[//div[@class="section"]/div[3]//ul//li[@class='yCmsComponent submenu-li second-level lastnode']]]></vSpace4Heightturbosound2col>
+<gutter2width2col><![CDATA[//div[@class='section']/div[4]//div[@class="first column"]]]></gutter2width2col>
+</B2B_siteMapPage>
+ </Locators>

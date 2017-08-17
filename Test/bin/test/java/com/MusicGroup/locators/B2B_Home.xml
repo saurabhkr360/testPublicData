@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+       <SearchField><![CDATA[//*[@id='search']]]></SearchField>
+       <SearchSection>
+         <VerifySearchSection><![CDATA[//input[contains(@id,'storeSearch')]]]></VerifySearchSection>  
+       </SearchSection>
+       <productSection>
+         <AllProduct><![CDATA[//*[@id='mc-product-grid']//form[1]/label]]></AllProduct>
+         <NewProducts><![CDATA[//*[@id='mc-product-grid']//form[2]/label]]></NewProducts>  
+         <BestSellers><![CDATA[//*[@id='mc-product-grid']//form[3]/label]]></BestSellers>  
+         <HotDeals><![CDATA[//*[@id='mc-product-grid']//form[4]/label]]></HotDeals>  
+         <TopReviews><![CDATA[//*[@id='mc-product-grid']//form[5]/label]]></TopReviews>    
+       </productSection>
+       <CatogerySection>
+         <Brand><![CDATA[//*[@id='mg_facet_Brand']//*[contains(.,'Brand')]]]></Brand>  
+         <Mixers><![CDATA[//*[@id='mg_facet_Mixers']//*[contains(.,'Mixers')]]]></Mixers>  
+         <SignalProcessors><![CDATA[//*[@id='mg_facet_Signal_Processors']//*[contains(.,'Signal Processors')]]]></SignalProcessors>  
+         <ComputerAudio><![CDATA[//*[@id='mg_facet_Computer_Audio']//*[contains(.,'Computer Audio')]]]></ComputerAudio>  
+         <LoudspeakerSystems><![CDATA[//*[@id='mg_facet_Loudspeaker_Systems']//*[contains(.,'Loudspeaker Systems')]]]></LoudspeakerSystems>  
+         <PowerAmplifiers><![CDATA[//*[@id='mg_facet_Power_Amplifiers']//*[contains(.,'Power Amplifiers')]]]></PowerAmplifiers>  
+         <Headphones><![CDATA[//*[@id='mg_facet_Headphones']//*[contains(.,'Headphones')]]]></Headphones>  
+         <Bass><![CDATA[//*[@id='mg_facet_Bass']//*[contains(.,'Bass')]]]></Bass>  
+         <Guitar><![CDATA[//*[@id='mg_facet_Guitar']//*[contains(.,'Guitar')]]]></Guitar>  
+         <Drums><![CDATA[//*[@id='mg_facet_Drums']//*[contains(.,'Drums')]]]></Drums>  
+         <Keyboards><![CDATA[//*[@id='mg_facet_Keyboards']//*[contains(.,'Keyboards')]]]></Keyboards>  
+         <LightingSystems><![CDATA[//*[@id='mg_facet_Lighting_Systems']//*[contains(.,'Lighting Systems')]]]></LightingSystems>  
+         <Microphones><![CDATA[//*[@id='mg_facet_Microphones']//*[contains(.,'Microphones')]]]></Microphones>  
+         <PortablePASystems><![CDATA[//*[@id='mg_facet_Portable_PA_Systems']//*[contains(.,'Portable PA Systems')]]]></PortablePASystems>  
+         <WirelessSystems><![CDATA[//*[@id='mg_facet_Wireless_Systems']//*[contains(.,'Wireless Systems')]]]></WirelessSystems>  
+         <Accessories><![CDATA[//*[@id='mg_facet_Accessories']//*[contains(.,'Accessories')]]]></Accessories>    
+       </CatogerySection>
+       <CommonSearches>
+       <CommonSearch><![CDATA[//li[@class='suggestions common-search-item ui-menu-item']]]></CommonSearch>
+       <ProductSearches><![CDATA[//li[@class='product recommended-result-item ui-menu-item']]]></ProductSearches>
+       <categories><![CDATA[//li[@class='categories common-search-item ui-menu-item']]]></categories>
+       </CommonSearches>
+</Locators>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<SHMCP_locator>
+<ClickToggleIcon><![CDATA[//i[@class="icon-menu icon-menu-login"]]]></ClickToggleIcon>
+<ClickBugeralink><![CDATA[//ul[@class="list-inline menu-logo-holder"]//a[@class="brand-bugera"]]]></ClickBugeralink>
+<EnterSerachingProduct><![CDATA[//input[@id='search']]]></EnterSerachingProduct>
+<ClickProductonSerachPage><![CDATA[//a[contains(text(),'G20 INFINIUM')]]]></ClickProductonSerachPage>
+<ClickFeaturelink><![CDATA[//ul[@id='top-nav-links']//a[@class='btn-feature']]]></ClickFeaturelink>
+<ThumbnailImage1><![CDATA[//li[@id='gallery-thumb-show']//a]]></ThumbnailImage1>
+<ThumbnailImage2><![CDATA[//li[@id='gallery-thumb-show'][2]//a]]></ThumbnailImage2>
+<ThumbnailImage3><![CDATA[//li[@id='gallery-thumb-show'][3]//a]]></ThumbnailImage3>
+<ThumbnailImage4><![CDATA[//li[@id='gallery-thumb-show'][4]//a]]></ThumbnailImage4>
+<thumbnailcount><![CDATA[//div[@class="productImageGallery thumbnail-product"]//ul[@class='thumbnail-product']/li]]></thumbnailcount>
+<PreviousLeft><![CDATA[//a[@class='left carousel-control']/span]]></PreviousLeft>
+<NextRight><![CDATA[//a[@class='right carousel-control']/span]]></NextRight>
+<CloseIcon><![CDATA[//div[@id='galleryCarousel']//a[@class='close-gallery']]]></CloseIcon>
+<viewthegallery><![CDATA[//a[@class='button-play view-the-gallery']]]></viewthegallery>
+</SHMCP_locator>
+ </Locators>

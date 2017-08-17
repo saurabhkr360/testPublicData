@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <BuyNow>
+       <ProductLogo><![CDATA[//input[contains(@id,'search')]]]></ProductLogo>
+       <MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+       <ClickBrandBehringer><![CDATA[//a[contains(@class,'brand-behringer')]]]></ClickBrandBehringer>
+       <ClickonProduct><![CDATA[//*[@id='content']/div[contains(@class,'spotlight-wrapper')]//a[contains(@href,'p/P0B6C')]]]></ClickonProduct>
+       <SupportLink><![CDATA[//a[contains(.,'Support')]]]></SupportLink>
+       <SearchField><![CDATA[//input[contains(@id,'search')]]]></SearchField>
+       <FeaturesLink><![CDATA[//a[contains(.,'Features')]]]></FeaturesLink>
+       <ReviewsLink><![CDATA[//a[contains(.,'Reviews')]]]></ReviewsLink>
+       <DiscoverLink><![CDATA[//a[contains(.,'Discover')]]]></DiscoverLink>
+       <DownloadsLink><![CDATA[//a[contains(.,'Downloads')]]]></DownloadsLink>
+       <Buy_Now><![CDATA[//a[contains(@class,'btn-buynow')]]]></Buy_Now>
+    </BuyNow>  
+    <VerifyPixels>
+       <bnvSpace1height><![CDATA[//div[contains(@class,'top-margin-container')]]]></bnvSpace1height> 
+       <bnvTextSpace1height><![CDATA[//div[contains(@id,'download-center')]/h2[contains(@class,'download-center-title')]]]></bnvTextSpace1height> 
+       <bntextSpace5height><![CDATA[//div[contains(@class,'col col-one-fifth')]]]></bntextSpace5height> 
+       <bnGutter2width><![CDATA[//select[contains(@id,'brand-type')]]]></bnGutter2width> 
+       <bnFixedimageboxheight><![CDATA[//div[contains(@class,'col col-one-fifth')]]]></bnFixedimageboxheight> 
+       <bnVSpace1height><![CDATA[//div[contains(@class,'top-margin-container')]]]></bnVSpace1height> 
+       <bnVSpace15height><![CDATA[//div[contains(@class,'grid_image_wrap icon')]]]></bnVSpace15height> 
+       <bnVSpace1height><![CDATA[//div[contains(@class,'download-center-img-divider')]]]></bnVSpace1height> 
+       <bnVSpace15height><![CDATA[//p[contains(@class,'download_title d-text')]]]></bnVSpace15height> 
+       <bnIndentionBwidth><![CDATA[//select[contains(@id,'brand-category')]//option[contains(@title,'Accessories')]]]></bnIndentionBwidth> 
+       <bnSpace9Height><![CDATA[//div[contains(@class,'downloadN')]]]></bnSpace9Height> 
+       <bnTextFieldwidth><![CDATA[//div[contains(@class,'brand_product_names d-text')]]]></bnTextFieldwidth> 
+       <bnVSpace1><![CDATA[//div[contains(@class,'brand_product_names d-text')]]]></bnVSpace1> 
+       <vSpace1Heightabovestorelocation><![CDATA[//div[@class='location-head']]]></vSpace1Heightabovestorelocation>
+       <TextSpace1Height><![CDATA[//p[starts-with(text(),'Our customers are at ')]]]></TextSpace1Height>
+       <TextSpace1Height1><![CDATA[//h1[starts-with(text(),'Store Locations')]]]></TextSpace1Height1>
+       <gap2width><![CDATA[//div[@class='location-top-image']]]></gap2width>
+       <fixedimageheight><![CDATA[//div[@class='location-top-image']/img]]></fixedimageheight>
+       <vSpace15Height><![CDATA[//div[@class='location-search']]]></vSpace15Height>
+       <vSpace1Heightabovelocationtable><![CDATA[//div[@class='location-address']]]></vSpace1Heightabovelocationtable>
+       <vSpace1Heightabovelocationtable1><![CDATA[//div[@class='location-address']/ul/li/a]]></vSpace1Heightabovelocationtable1>
+       <textfieldwidth><![CDATA[//div[@class='location-address']/ul]]></textfieldwidth>
+       <textfieldwidth2><![CDATA[//div[@class='location-address']/ul[2]]]></textfieldwidth2>
+       <textfieldwidth3><![CDATA[//div[@class='location-address']/ul[3]]]></textfieldwidth3>
+       <TextSpace9Height><![CDATA[//div[@class='location-address']/ul/li/a]]></TextSpace9Height>
+       <TextSpace9Height1><![CDATA[//div[@class='location-address']/ul/li[2]]]></TextSpace9Height1>
+       <vSpace1Heightfooter><![CDATA[//div[@id='BrandFooter']]]></vSpace1Heightfooter>
+    </VerifyPixels> 
+</Locators>

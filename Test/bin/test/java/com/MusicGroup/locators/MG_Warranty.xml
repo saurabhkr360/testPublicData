@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <MGWarranty>
+    <ClickonSupport><![CDATA[//a[contains(.,'Support')]]]></ClickonSupport>
+    <ClickBrand><![CDATA[//div[@class='container brand-logo-firstline']//a[@class='logo-brands logo-midas']/img]]></ClickBrand>
+<MenuIcon><![CDATA[//div[@id='globalSupportFormmidas']//p[@class='link']/a[contains(text(), 'Check Coverage...')]]]></MenuIcon>
+     </MGWarranty>  
+    <VerifyPixels>
+       <Vspace1height><![CDATA[//div[contains(@class,'content-warranty')]]]></Vspace1height> 
+       <TextSpace1height><![CDATA[//div[contains(@class,'content-warranty')]/h1[contains(text(),'Limited Warranty')]]]></TextSpace1height>
+       <vTextSpace1Height><![CDATA[//div[contains(@class,'content-warranty')]/div/p]]></vTextSpace1Height>
+       <vTextSpace1MainHeight><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-main']]]></vTextSpace1MainHeight>
+       <vTextSpace1HeightAboveSecondText><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/h4]]></vTextSpace1HeightAboveSecondText>
+       <vTextSpace2Height><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number']]]></vTextSpace2Height>
+       <vTextSpace2TextHeight><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number']/p]]></vTextSpace2TextHeight>
+       <vTextSpace2Text1Height><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number']/div]]></vTextSpace2Text1Height>
+       <vTextSpace2Text2Height><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number']/p[2]]]></vTextSpace2Text2Height>
+       <vTextSpace2TextBHeight><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number'][2]]]></vTextSpace2TextBHeight>
+        <vTextSpace2Text3Height><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number'][3]]]></vTextSpace2Text3Height>
+        <vTextSpace2Text4Height><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number'][4]]]></vTextSpace2Text4Height>
+        <Fixedimageboxheight><![CDATA[//div[contains(@class,'img-waranty')]/img]]></Fixedimageboxheight>   
+       <vGutter62Width><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol]]></vGutter62Width>
+       <vGutterAWidth><![CDATA[//div[contains(@class,'content-warranty')]/div[@class='infor-inner']/ol/li/ol/li[@class='order-number'][2]]]></vGutterAWidth>
+            
+       <TextSpace5height><![CDATA[//div[contains(@class,'grid_image_wrap icon')]]]></TextSpace5height>
+       <vSpace1height><![CDATA[//div[contains(@class,'infor-main')]]]></vSpace1height>
+       <TextSpace2height><![CDATA[//div[@class='infor-inner']/ol/li/h4]]></TextSpace2height>
+       <TextSpace3height><![CDATA[//li[@class='order-number']/p]]></TextSpace3height>
+       <TextSpace2Height><![CDATA[//div[contains(@class, 'col-xs-3')]]]></TextSpace2Height>
+       <TextSpace3Height><![CDATA[//ul[contains(@class, 'no-number')]/li]]></TextSpace3Height>
+       <VSpace1height><![CDATA[//li[@class='order-number']/p[2]]]></VSpace1height> 
+       <VSpace1Height><![CDATA[//li[@class='order-number']/ol/li[2]]]></VSpace1Height>
+       <GutterAwidth><![CDATA[//select[contains(@id,'brand-type')]]]></GutterAwidth>
+       <BlockListB><![CDATA[//ul[contains(@class, 'no-number')]]]></BlockListB>
+       <Gutter49width><![CDATA[//div[contains(@class,'infor-main')]/p]]></Gutter49width> 
+       <IndentionAwidth><![CDATA[//div[contains(@class, 'row infor-limit')]/div[1]]></IndentionAwidth>
+       <Gutter62width><![CDATA[//div[contains(@class, 'infor-inner')]/ol/li]]></Gutter62width>
+    </VerifyPixels>     
+</Locators>

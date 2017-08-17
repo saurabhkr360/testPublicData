@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <PlaceOrder>
+       <ClickProduct><![CDATA[//div[@class="productGrid product-grid"]/ul/li[2]/div/a/img]]></ClickProduct>
+       <enterqtyininput><![CDATA[//input[@id='qty']]]></enterqtyininput>
+       <addtocartbutton><![CDATA[//button[@id='addToCartButton']]]></addtocartbutton>
+       <clickcartlink><![CDATA[//span[@class='minicart cart-label']]]></clickcartlink>
+       <PiecePerMasterCartoon><![CDATA[//div[@class='product-shortmeta']/p[2]/span[2]]]></PiecePerMasterCartoon>
+       <buttonviewcart><![CDATA[//a[@class='btn-view-cart']]]></buttonviewcart>   
+       <checkoutbutton><![CDATA[//button[@id='checkout-id']]]></checkoutbutton>
+       <RefNumber><![CDATA[//input[@id='referenceNumber']]]></RefNumber>
+       <Updatebutton><![CDATA[//button[@class="updatecart btn btn-primary-blue"]]]></Updatebutton>
+       <PlaceOrderButton><![CDATA[//button[@class="btn btn-primary-blue"]]]></PlaceOrderButton>
+       <OrderSuccesullySubmitted><![CDATA[//h2[contains(text(),'Order Successfully Submitted')]]]></OrderSuccesullySubmitted>
+       <insufficientmessage><![CDATA[//div[@class='insResult']/div/h2]]></insufficientmessage>
+       <WelcomeIcon><![CDATA[//li[@class='logged_in']]]></WelcomeIcon>
+       <SignOutButton><![CDATA[//a[@class='btnSignOut']]]></SignOutButton>
+   </PlaceOrder>
+   <insufficientorder>
+        <ClickProduct><![CDATA[//div[@class="productGrid product-grid"]/ul/li[2]/div/a/img]]></ClickProduct>
+        <ordernow><![CDATA[//input[@id='orderType2']]]></ordernow>
+        <closeicon><![CDATA[//div[@class='insufficient-popup']//a[@class='btn-close-success']]]></closeicon>
+        <backorder><![CDATA[//button[@id='checkout-backorder-popup']]]></backorder>  
+        <ordertype><![CDATA[//table[@class="table-summary"]/tbody/tr[3]/td[2]]]></ordertype> 
+        <vSpace15Height><![CDATA[//a[@class='btn-close-success']]]></vSpace15Height>
+        <vSpace5Height>><![CDATA[//div[@class='insufficient-popup']]]></vSpace5Height>
+        <TextSpace14Height><![CDATA[//div[@class='insResult_2']]]></TextSpace14Height>
+        <gutter45width1><![CDATA[//a[@class='btn alternate-btn']]]></gutter45width1>
+        <gutter45width><![CDATA[//div[@class='sufficient-btn']/a]]></gutter45width>
+    </insufficientorder>
+    <BackOrder>
+       <vSpace15Height><![CDATA[//div[@class='insufficient-popup']/a]]></vSpace15Height>
+       <Vspace5Height><![CDATA[//div[@class='insufficient-popup']]]></Vspace5Height>
+       <textSpace14Heightabove><![CDATA[//div[@class="insResult_2"]]]></textSpace14Heightabove>
+       <textSpace14Heughtbelow><![CDATA[//div[@class="insufficient-radios"]/input]]></textSpace14Heughtbelow>
+       <textSpace14Heightbelowradio><![CDATA[//div[@class="insufficient-radios"]]]></textSpace14Heightbelowradio>
+       <textSpace14Heightbelowradio1><![CDATA[//div[@class="insufficient-radios"]/input[3]]]></textSpace14Heightbelowradio1>
+       <vSpace5HeightBelow><![CDATA[//div[@class="back-oder-btn"]]]></vSpace5HeightBelow>
+       <gutter45width><![CDATA[//div[@class='back-oder-btn']//button[@id="backorder-cancel"]]]></gutter45width>
+       <vSpace5heightinsufficientfooter><![CDATA[//div[@class='sufficient-btn']/p]]></vSpace5heightinsufficientfooter>
+    </BackOrder>
+    <uploadcart>
+    <clickuploadcart><![CDATA[//i[@id='cartUploadCartPage']]]></clickuploadcart>
+    <vSpace15Height><![CDATA[//span[@class="popup-close close-popup-step-1"]]]></vSpace15Height>
+    <vSpace5Height><![CDATA[//div[@id="stepId1"]]]></vSpace5Height>
+    <textSpace14Height><![CDATA[//h1[contains(text(),'Upload Cart')]]]></textSpace14Height>
+    <vSpace9Heightuploadfile><![CDATA[//p[@class="title"]]]></vSpace9Heightuploadfile>
+    <gutter34width><![CDATA[//span[@id="upload-file-status"]]]></gutter34width>
+    <vSpace9Heightbelowchoose><![CDATA[//p[@class="form-upload"]]]></vSpace9Heightbelowchoose>
+     <vSpace9Heightbelowupload><![CDATA[//button[@class="btn btn-blue-primary up-btn"]]]></vSpace9Heightbelowupload>
+    </uploadcart>
+</Locators>

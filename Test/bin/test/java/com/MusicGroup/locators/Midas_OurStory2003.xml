@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <OurStory>
+       <ClickToggleMenu><![CDATA[//i[@class='icon-menu icon-menu-login']]]></ClickToggleMenu>
+       <ClickMidasBrand><![CDATA[//a[@class='brand-midas']]]></ClickMidasBrand>
+       <ClickOurStoryMenu><![CDATA[//a[contains(text(),'Our Story')]]]></ClickOurStoryMenu>
+       <ClickOurStory1981image><![CDATA[//li[@class='img-seperate-block col-md-2 mTSThumbContainer'][3]]]></ClickOurStory1981image>
+         <ClickOurStory1998image><![CDATA[//li[@class='img-seperate-block col-md-2 mTSThumbContainer'][12]/a]]></ClickOurStory1998image>
+    </OurStory>  
+    <VerifyPixels>
+       <vSpace1Height><![CDATA[//h3[contains(text(),"2003")]]]></vSpace1Height>
+       <textSpace8Height><![CDATA[//div[@class='leftText']/h2]]></textSpace8Height>
+       <textSpace6Height><![CDATA[//div[@class='leftText']/p]]></textSpace6Height>
+       <textSpace6Height1><![CDATA[//div[@class='our-story-intro-text']/p]]></textSpace6Height1>  
+       <vSpace4Heightaboveimage><![CDATA[//div[@class='our-story-fullwidth-box-img']]]></vSpace4Heightaboveimage>
+       <vSpace1HeightFooter><![CDATA[//div[@id='seeAllBrand']]]></vSpace1HeightFooter>
+       <vSpace4Heightbelowtext><![CDATA[//div[@class='bottomText']/p]]></vSpace4Heightbelowtext> 
+       <gutter16width><![CDATA[//div[@class='box-txt-col-xs-6']]]></gutter16width>
+       <gutter16width2><![CDATA[//div[@class='col-xs-6'][2]/div[@class='box-txt-col-xs-6']]]></gutter16width2>
+       <FixedImageWidth33><![CDATA[//div[@class='box-image-col-xs-6']/img]]></FixedImageWidth33>
+       <FixedImagewidth6><![CDATA[//div[@class='col-xs-6'][2]/div[@class='box-image-col-xs-6']/img]]></FixedImagewidth6>
+       <vSpace1HeightabovebelowFirstImage><![CDATA[//div[@class='ourstory-bottom-paragraph-details']]]></vSpace1HeightabovebelowFirstImage>
+       <vSpace1HeightBelowFirstImagetext><![CDATA[//div[@class='ourstory-bottom-paragraph-details']/p]]></vSpace1HeightBelowFirstImagetext>
+       <vSpace1HeightBelowFirstImagetext22><![CDATA[//div[@class='ourstory-bottom-paragraph-details']/p[2]]]></vSpace1HeightBelowFirstImagetext22>
+       <FirstImagewidth><![CDATA[//div[@class='col-xs-12 no-gutter']/img]]></FirstImagewidth>
+       <vSpace2Height><![CDATA[//div[@class='page-MidasOD-1971 ourstory-bottom-paragraph-details em-class']]]></vSpace2Height>
+       <vSpace2Height1><![CDATA[//div[@class='text-align']/p]]></vSpace2Height1>
+       <TextSpace1Height><![CDATA[//div[@class='text-align']/p[2]]]></TextSpace1Height>
+       <vSpace1heightaboveawardtext><![CDATA[//div[@class='our-story-box-awards-text']/h2]]></vSpace1heightaboveawardtext>
+       <vSpace1HeightseeAllMidas><![CDATA[//div[@id="seeAllBrand"]]]></vSpace1HeightseeAllMidas>
+       <vSpace2Heightabovebuttontext1><![CDATA[//p[@class='em-class']]]></vSpace2Heightabovebuttontext1>
+       <vSpace2Heightabovebuttontext><![CDATA[//p[@class='em-class']/space]]></vSpace2Heightabovebuttontext>
+       <vSpace1heightfooter><![CDATA[//div[@id="seeAllBrand"]]]></vSpace1heightfooter>
+       <vSpacw4Heightaboveseeallmidasp><![CDATA[//div[@class='box-img']/p[2]]]></vSpacw4Heightaboveseeallmidasp>
+       <gutter16width1><![CDATA[//div[@class='col-xs-4'][1]/div[@class='box-txt-col-xs-4']]]></gutter16width1>
+       <gutter16width22><![CDATA[//div[@class='col-xs-4'][2]/div[@class='box-txt-col-xs-4']]]></gutter16width22>
+       <gutter16width3><![CDATA[//div[@class='col-xs-4'][3]/div[@class='box-txt-col-xs-4']]]></gutter16width3>
+       <vSPace1Heightbelowthreeimages1><![CDATA[//div[@class='col-xs-4'][1]/div[@class='box-txt-col-xs-4']//p]]></vSPace1Heightbelowthreeimages1>
+       <vSPace1Heightbelowthreeimages3><![CDATA[//div[@class='col-xs-4'][3]/div[@class='box-txt-col-xs-4']//p]]></vSPace1Heightbelowthreeimages3>
+       <vSPace1Heightbelowthreeimages22><![CDATA[//div[@class='col-xs-4'][3]/div[@class='box-txt-col-xs-4']//p]]></vSPace1Heightbelowthreeimages22>
+       <FullWidthImage2><![CDATA[//div[@class='col-xs-4'][3]/div[@class='box-image-col-xs-4']/img]]></FullWidthImage2>
+       <vSpace1Heightaboveimage><![CDATA[//div[@class='col-xs-6'][2]//div[@class='vertical-center']]]></vSpace1Heightaboveimage>
+       <vSpace1Heightaboveimage1><![CDATA[//div[@class='col-xs-6'][1]//div[@class='vertical-center']]]></vSpace1Heightaboveimage1>
+       <Gutter2Width><![CDATA[//div[@class='col-xs-6'][1]//div[@class='callout-box-cont']]]></Gutter2Width>
+       <Gutter2Width1><![CDATA[//div[@class='col-xs-6'][2]//div[@class='callout-box-image call-out-margin']]]></Gutter2Width1>
+       <calloutbodycopy><![CDATA[//div[@class='col-xs-6'][1]//div[@class='callout-box-cont']]]></calloutbodycopy>
+       <calloutbodyfiximage><![CDATA[//div[@class='col-xs-6'][2]//div[@class='vertical-center']/img]]></calloutbodyfiximage>
+       <vSpaceHeightaboveseemidasbutton><![CDATA[//p[starts-with(text(),'The team went back')]]]></vSpaceHeightaboveseemidasbutton>
+    </VerifyPixels> 
+</Locators>

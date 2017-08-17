@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<B2B_RegistraionPage>
+<gettitle><![CDATA[//title]]></gettitle>
+<clickregistraionlink><![CDATA[//a[@href='register']]]></clickregistraionlink>
+<vSpace1Hightlocatorheader><![CDATA[//div[@class="mg-login"]]]></vSpace1Hightlocatorheader>
+<vspace1createmusictext><![CDATA[//div[@class="mg-login"]]]></vspace1createmusictext>
+<textSpace1locatoraboveenteryou><![CDATA[//p[starts-with(text(), 'Enter your primary email')]]]></textSpace1locatoraboveenteryou>
+<textspace1heightform><![CDATA[//form[@id='mgCustomerForm']]]></textspace1heightform>
+<BodyCopyLeadingrightside><![CDATA[//div[@class="form-group"]]]></BodyCopyLeadingrightside>
+<v1spaceheightabovesecurity><![CDATA[//h3[starts-with(text(), "Security Questions")]]]></v1spaceheightabovesecurity>
+<widthlocator><![CDATA[//div[@class='mg-login-info']]]></widthlocator>
+<gutter4locator><![CDATA[//div[@class='mg-login-info']]]></gutter4locator>
+<gutter2locator><![CDATA[//div[@class='mg-login-form']]]></gutter2locator>
+<gap1Width><![CDATA[//div[@class='col-xs-8']]]></gap1Width>
+<vSpace1LocatorDateofbirth><![CDATA[//h3[contains(text(), "Date of Birth")]]]></vSpace1LocatorDateofbirth>
+<gutter89WidthDay><![CDATA[//div[@class='col-xs-4 paddin-left-0']]]></gutter89WidthDay>
+<gutter89WidthMonth><![CDATA[//div[@class='col-xs-8 no-gutter']//div[2]]]></gutter89WidthMonth>
+<VSpace1HeightRescueEmail><![CDATA[//h3[contains(text(), "Rescue Email Address")]]]></VSpace1HeightRescueEmail>
+<TextSpace1heightAboveRescueemail><![CDATA[//div[@class='form-group margin-top-35 margin-bottom-0'][2]]]></TextSpace1heightAboveRescueemail>
+<vSpace1HeightEmailPreference><![CDATA[//h3[contains(text(), 'Email Preference')]]]></vSpace1HeightEmailPreference>
+<textSpace1HeightAboveMidas><![CDATA[//div[@class='form-group margin-top-35 margin-bottom-0'][3]]]></textSpace1HeightAboveMidas>
+<textSpace1HeightMidas><![CDATA[//div[@class='checkbox col-xs-6']]]></textSpace1HeightMidas>
+<textSpace1Height1MidasLabel><![CDATA[//label[@class="css-label checked"]]]></textSpace1Height1MidasLabel>
+<textspace1Heightabovebuttons><![CDATA[//div[@class='col-xs-12 margin-top-27']]]></textspace1Heightabovebuttons>
+<textSpace1HeightIagreetext><![CDATA[//div[@class='row']]]></textSpace1HeightIagreetext>
+<textSpace1HeightIagreetext2><![CDATA[//div[@class='terms-text']]]></textSpace1HeightIagreetext2>
+<v1SpaceHeightRightCol><![CDATA[//div[@class='mg-login-form']]]></v1SpaceHeightRightCol>
+<v1SpaceHeightfooter><![CDATA[//div[@class='mg-login']]]></v1SpaceHeightfooter>
+<cancelbuttonlocator><![CDATA[//button[@class="btn btn-cancel"]]]></cancelbuttonlocator>
+<createamusiccode><![CDATA[//button[@class="btn btn-mg margin-left-10"]]]></createamusiccode>
+<TextSpace1Heightabovecancelbutton><![CDATA[//div[@class="col-xs-12 margin-top-27"]]]></TextSpace1Heightabovecancelbutton>
+<textSpace1HeightIagree><![CDATA[//div[@class="col-xs-12"]/label]]></textSpace1HeightIagree>
+</B2B_RegistraionPage>
+</Locators>

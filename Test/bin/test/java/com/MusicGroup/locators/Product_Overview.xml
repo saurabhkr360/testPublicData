@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <ProductOverViewPage>
+       <MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+       <ClickBrandbehringer><![CDATA[//a[contains(@class,'brand-behringer')]]]></ClickBrandbehringer>
+       <ClickProductLink><![CDATA[//div[@class='col-xs-8 pull-right text-right']//ul[@id='top-nav-links']//li/a[contains(text(),'Products')]]]></ClickProductLink>
+       
+       
+       <ClickComputerAudio><![CDATA[//div[@id='accordian']/ul[@class='product-list']/li/h4[contains(text(),'Mixers')]]]></ClickComputerAudio>
+       <ClickAudioInterface><![CDATA[//ul[@class='sub-product-list']//li/a[contains(text(),'mall Format Mixers')]]]></ClickAudioInterface>
+       <ClickProductUMC202HD><![CDATA[//div[@class='details']/h4/a[contains(text(),'302USB')]]]></ClickProductUMC202HD>
+      <!--  <ClickCommunityLink><![CDATA[//a[contains(.,'Community')]]]></ClickCommunityLink> -->
+    </ProductOverViewPage>
+   
+ <VerifyPixel>
+        <VSpace1height><![CDATA[//div[@class='dispTableCell pTop65 valignTop']]]></VSpace1height>
+        <vSpace1HeightHeading><![CDATA[//div[@class='dispTableCell pTop65 valignTop']/div//h1[contains(text(),'XENYX ')]]]></vSpace1HeightHeading>
+        <vSpace4HeightBtwHeading><![CDATA[//div[@class='dispTableCell pTop65 valignTop']/div//h1[contains(text(),'302USB ')]]]></vSpace4HeightBtwHeading>
+        <vTextSpace6HeightText><![CDATA[//div[@class='dispTableCell pTop65 valignTop']/div//h2[contains(@class,'head-desc')]]]></vTextSpace6HeightText>
+      <vGutterSapce2Width1><![CDATA[//div[@class='section-main']/div[@class='gutter']]]></vGutterSapce2Width1>
+       <vGutterSapce2Width2><![CDATA[//div[@class='section']/div[@class='gutter']]]></vGutterSapce2Width2>
+       <vGutterSapce2Width3><![CDATA[//div[@id='productDetailUpdateable']/div[2]/div/div[@class='gutter']]]></vGutterSapce2Width3>
+       <vCallOutBodyContainer><![CDATA[//div[@class='text-area valignMid']/div]]></vCallOutBodyContainer>
+       <vCallOutBodyContainerP><![CDATA[//div[@class='text-area valignMid']//p]]></vCallOutBodyContainerP>
+       <vCallOutBodyContainerDiv><![CDATA[//div[@class='text-area valignMid']]]></vCallOutBodyContainerDiv>
+         <vCallOutBody1ContainerDiv><![CDATA[//div[@id='productDetailUpdateable']/div[2]/div//div[@class='text-area valignMid']]]></vCallOutBody1ContainerDiv>
+         <vTextSpace10Height1><![CDATA[//div[@class='container-over-view'][2]//div[@class='text-container']//h2[@class='sub-heading']]]></vTextSpace10Height1>
+         <vTextSpace10Height1P><![CDATA[//div[@class='container-over-view'][2]//div[@class='text-container']//p]]></vTextSpace10Height1P>
+         <vTextSpace8LeadHead><![CDATA[//div[@class='container-over-view'][2]//div[@class='text-container']//a]]></vTextSpace8LeadHead>
+         <vSpace1HeightFooter><![CDATA[//section[@class='row text-block-semi  title-and-desc text-center']]]></vSpace1HeightFooter>
+         <vSPace1AboveTextFooter><![CDATA[//section[@class='row text-block-semi  title-and-desc text-center']/h2]]></vSPace1AboveTextFooter>
+         <vSPace1AboveTextFooter1><![CDATA[//section[@class='row text-block-semi  title-and-desc text-center']/p]]></vSPace1AboveTextFooter1>
+         <vSPace1AboveTextFooter2><![CDATA[//section[@class='row text-block-semi  title-and-desc text-center']/a]]></vSPace1AboveTextFooter2>
+         <vSPace1AboveTextInFooter><![CDATA[//div[@class='top-gutter fixed-with-img bottom-gutter']]]></vSPace1AboveTextInFooter>
+         <vSPace1AboveTextInFooter1><![CDATA[//div[@class='row text-block-semi  title-and-desc']]]></vSPace1AboveTextInFooter1>
+         <vTextSpace6InFooter><![CDATA[//h2[contains(text(),'You Are Covered')]]]></vTextSpace6InFooter>
+         <vTextSpace6InFooter1><![CDATA[//div[contains(@class,'product-feature-text')]]]></vTextSpace6InFooter1>
+         <vTextSpace8Learn><![CDATA[//div[contains(@class,'product-feature-text')]/a[contains(text(),'Learn more ...')]]]></vTextSpace8Learn>
+          <vTextSpace1InFooter2><![CDATA[//div[@id='BrandFooter']]]></vTextSpace1InFooter2>
+      <!-- -  <prodParagraphSpace1_height><![CDATA[//contains]]></ClickCommunityLink>
+        <prodimgheight><![CDATA[//*[@id='productDetailUpdateable']/section/div/div/div[2]/img]]></ClickCommunityLink>
+        <prodimgwidth><![CDATA[//*[@id='productDetailUpdateable']/section/div/div/div[2]/img]]></ClickCommunityLink>
+        <prodimgheight1><![CDATA[//contains]]></ClickCommunityLink>
+        <prodimgwidth1><![CDATA[//contains]]></ClickCommunityLink>
+        <CalloutBodyCopyHeight><![CDATA[//contains]]></ClickCommunityLink>
+        <CalloutBodyCopyWidth><![CDATA[//contains]]></ClickCommunityLink>
+        <prodParagraphSpace1_height1><![CDATA[//contains]]></ClickCommunityLink>
+        <HeadlineLeading_height><![CDATA[//contains]]></ClickCommunityLink>
+        <prodCalloutBodyCopyHeight><![CDATA[//contains]]></ClickCommunityLink>
+        <prodCalloutBodyCopyWidth><![CDATA[//contains]]></ClickCommunityLink>
+        <prodCalloutBodyCopyHeight1><![CDATA[//contains]]></ClickCommunityLink>
+        <prodCalloutBodyCopyWidth1><![CDATA[//contains]]></ClickCommunityLink>     
+         -->   
+    </VerifyPixel>
+    
+</Locators>

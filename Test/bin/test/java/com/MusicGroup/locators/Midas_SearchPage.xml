@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <OurStory>
+   <ClickToggleMenu><![CDATA[//i[@class='icon-menu icon-menu-login']]]></ClickToggleMenu>
+       <ClickMidasBrand><![CDATA[//a[@class='brand-midas']]]></ClickMidasBrand>
+       <entertextinserachfield><![CDATA[//input[@id='search']]]></entertextinserachfield>
+   </OurStory>
+   <VerifyPixels>
+   <vSpace1Height><![CDATA[//div[@class='search-result-block']/h3]]></vSpace1Height>
+   <vSpaceTopHeight><![CDATA[//div[@class='search-result-block']]]></vSpaceTopHeight>
+   <vSPace2BelowSearchHeight><![CDATA[//span[@class='commonsearch-bar']/div[@class='input-group']]]></vSPace2BelowSearchHeight>
+   <vSpace12BelowSearchResult><![CDATA[//div[@class='result-row']/div[@class='col-xs-4']]]></vSpace12BelowSearchResult>
+   <vSpace2AboveSupportResult><![CDATA[//section[@class='row search-wrapper']/div[@class='mg-border mg-rounded-4 clearfix result-block-support']]]></vSpace2AboveSupportResult>
+   <vSpace1BelowSupportResult><![CDATA[//section[@class='row search-wrapper']/div[@class='search-entire-support ']]]></vSpace1BelowSupportResult>
+   <vSpace1AboveFooter><![CDATA[//div[@class='copy-right-brands no-gutter-footer']]]></vSpace1AboveFooter>
+   <vTextSpaceAboveAboutResult><![CDATA[//div[@class='show-result']/p[@class='search-result-val']]]></vTextSpaceAboveAboutResult>
+   <vTextSpaceProductTitle><![CDATA[//div[@class='details']/div[@class='product-title']]]></vTextSpaceProductTitle>
+   <vTextSpace7Result><![CDATA[//div[@class='result-row-list']/div[@class='result-list-items']]]></vTextSpace7Result>
+   <vTextSpace10AboveHeight><![CDATA[//div[@class='page-nav text-center support-pagination']/ul[@class='pagination']]]></vTextSpace10AboveHeight>
+   <vTextSpace1AboveSearchResult><![CDATA[//h3[contains(text(),'Support Result')]]]></vTextSpace1AboveSearchResult>
+   <vTextSpace1AboveSearchData><![CDATA[//ul[@class='mt-search-results']/li]]></vTextSpace1AboveSearchData>
+   <vTextSupportResultHeight><![CDATA[//div[@class='mg-border mg-rounded-4 clearfix result-block-support']]]></vTextSupportResultHeight>
+   <vTextAboveViewMoreSResult><![CDATA[//div[@class='search-entire-support ']/h4[@class='text-center']]]></vTextAboveViewMoreSResult>
+   <vImageHeightWidth><![CDATA[//div[@class='result-img']/a/img]]></vImageHeightWidth>
+   <vGutterWidth1><![CDATA[//ul[@class='mt-search-results']/li/div[@class='result-list-items']]]></vGutterWidth1>
+   <vGutter36Width><![CDATA[//ul[@class='pagination']/li[@class='active']/a]]></vGutter36Width>
+   <vSearchImageSpace><![CDATA[//span[@class='commonsearch-bar']/div[@class='input-group']/form/input[@class='form-control ui-autocomplete-input']]]></vSearchImageSpace>
+   <vSapceAfterName><![CDATA[//div[@class='result-row-list support-list']/ul[@class='mt-search-results']/li/div[@class='result-list-items']/a]]></vSapceAfterName>
+    <vSapceAfterName1><![CDATA[//div[@class='result-row-list support-list']/ul[@class='mt-search-results']/li/div[@class='result-list-items']/p[@class='product-desc']]]></vSapceAfterName1>
+    <vLeftSpaceGap><![CDATA[//div[@class='col-xs-4']/div[@class='details']/div[@class='product-desc']/p/a[@class='learn-more']]]></vLeftSpaceGap>
+   </VerifyPixels>
+</Locators>

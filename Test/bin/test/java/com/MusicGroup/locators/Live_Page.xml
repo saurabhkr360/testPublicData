@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<Live_HomePage>
+<clickEntertainmanetimage><![CDATA[//a[@href='/enterpriseandentertainment']/img]]></clickEntertainmanetimage>
+<clickinstallimage><![CDATA[//a[@href='/live']/img]]></clickinstallimage>
+<HomeBillboardlocator><![CDATA[//div[@class="slide-item"]/a/img]]></HomeBillboardlocator>
+
+<linedivide><![CDATA[//div[@class="spotlight"][1]]]></linedivide>
+<linedivide1><![CDATA[//div[@class="spotlight"][2]]]></linedivide1>
+<spotlightimage><![CDATA[//div[@class="spotlight"]/a/img]]></spotlightimage>
+<spotlight2image><![CDATA[//div[@class="spotlight"][2]/a/img]]></spotlight2image>
+</Live_HomePage>
+ </Locators>

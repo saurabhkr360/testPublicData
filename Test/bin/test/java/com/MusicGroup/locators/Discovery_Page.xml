@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <DiscoverPage>
+       <ProductLogo><![CDATA[//input[contains(@id,'search')]]]></ProductLogo>
+       <MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+       <ClickBrandBehringer><![CDATA[//a[contains(@class,'brand-behringer')]]]></ClickBrandBehringer>
+       <ClickonProduct><![CDATA[//*[@id='content']/div[contains(@class,'spotlight-wrapper')]//a[contains(@href,'p/P0BMC')]]]></ClickonProduct>
+       <SupportLink><![CDATA[//a[contains(.,'Support')]]]></SupportLink>
+       <SearchField><![CDATA[//input[contains(@id,'search')]]]></SearchField>
+       <FeaturesLink><![CDATA[//a[contains(.,'Features')]]]></FeaturesLink>
+       <ReviewsLink><![CDATA[//a[contains(.,'Reviews')]]]></ReviewsLink>
+       <DiscoverLink><![CDATA[//a[contains(.,'Discover')]]]></DiscoverLink>
+       <DownloadsLink><![CDATA[//a[contains(.,'Downloads')]]]></DownloadsLink>
+       <BuyNow><![CDATA[//a[contains(.,'Buy Now')]]]></BuyNow>
+       <entertextinserachfield><![CDATA[//input[@id='search']]]></entertextinserachfield>
+       <ClickBehringerx32Product><![CDATA[//a[@href='/Categories/Behringer/Mixers/Digital-Mixers/X32-COMPACT-TP/p/P0B18']]]></ClickBehringerx32Product>
+       <clickdiscoverlink><![CDATA[//a[@class='btn-discover']]]></clickdiscoverlink>
+       
+    </DiscoverPage>   
+    <VerifyPixels>
+      <dcvSpace1height><![CDATA[//h2[@class='discover-title']]]></dcvSpace1height>
+      <dcvSpace4height><![CDATA[//div[@class='discover-billboard']]]></dcvSpace4height> 
+      <vspace4HeightaboveProductoverview><![CDATA[//h3[@class='discover-info-title']]]></vspace4HeightaboveProductoverview>
+      <vSpace3Height1col><![CDATA[//div[@class='col-xs-4 box-image-last box-image-last-row']]]></vSpace3Height1col>
+      <vspace2Heightbelowcolimage><![CDATA[//div[@class='col-xs-4 box-image-last box-image-last-row']//p]]></vspace2Heightbelowcolimage>
+      <vspace2Heightaboveseeallvideos><![CDATA[//div[@id='discoveryPageToogle']]]></vspace2Heightaboveseeallvideos>
+      <vSpace4Heightbelowseellvideos><![CDATA[//div[@class='discover-info-box-last']//h3]]></vSpace4Heightbelowseellvideos>
+      <vSpace1Heightfooter><![CDATA[//div[@id='BrandFooter']]]></vSpace1Heightfooter>
+      <dctextField11width><![CDATA[//div[contains(@class,'col col-one-fifth')]]]></dctextField11width> 
+      <dctextField11height><![CDATA[//div[contains(@class,'col col-one-fifth')]]]></dctextField11height> 
+      <dctextField10width><![CDATA[//select[contains(@id,'brand-type')]]]></dctextField10width> 
+      <dctextField10height><![CDATA[//select[contains(@id,'brand-type')]]]></dctextField10height> 
+      <dcvSpace2height><![CDATA[//div[contains(@class,'col col-one-fifth')]]]></dcvSpace2height> 
+      <dcvSpace1height><![CDATA[//div[contains(@class,'top-margin-container')]]]></dcvSpace1height> 
+      <dciconwidth><![CDATA[//div[contains(@class,'grid_image_wrap icon')]]]></dciconwidth> 
+      <dciconheight><![CDATA[//div[contains(@class,'grid_image_wrap icon')]]]></dciconheight> 
+      <dcFixedBowwidth><![CDATA[//div[contains(@class,'download-center-img-divider')]]]></dcFixedBowwidth> 
+      <dcFixedBowheight><![CDATA[//div[contains(@class,'download-center-img-divider')]]]></dcFixedBowheight> 
+      <dcgutter9width><![CDATA[//p[contains(@class,'download_title d-text')]]]></dcgutter9width> 
+      <dctextSpaceheight><![CDATA[//select[contains(@id,'brand-category')]//option[contains(@title,'Accessories')]]]></dctextSpaceheight> 
+      <dcvSpace3Height><![CDATA[//div[contains(@class,'downloadN')]]]></dcvSpace3Height> 
+      <dcsubheadLeading><![CDATA[//div[contains(@class,'brand_product_names d-text')]]]></dcsubheadLeading>        
+    </VerifyPixels>
+    
+</Locators>

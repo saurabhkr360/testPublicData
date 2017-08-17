@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<JoinUS>
+<ClickonJoinUs><![CDATA[//a[contains(text(), 'Join Us')]]]></ClickonJoinUs>
+<ClickOnWhatWeDo><![CDATA[//a[@href='/joinus/what-we-do']/img]]></ClickOnWhatWeDo>
+<ClickOnZhongshan><![CDATA[//div[@class='nav-footer-item']/ul//li/a[contains(text(),'UK, Manchester')]]]></ClickOnZhongshan>
+</JoinUS>
+<VerifyPixels>
+<vSpace1HeaderHeight><![CDATA[//div[@class='career-pageN']]]></vSpace1HeaderHeight>
+<vSpace1HeaderText><![CDATA[//div[@class='career-pageN']/div/h1]]></vSpace1HeaderText>
+<vTextSpace3liStCountry><![CDATA[//div[@class='career-page l-detail']/ul[@class='nav']//li[contains(text(),'Other Countries')]]]></vTextSpace3liStCountry>
+<vTextSpaceCountry><![CDATA[//div[@class='career-page l-detail']/ul//li/a[contains(text(),'USA, Los Angeles')]]]></vTextSpaceCountry>
+<vFixedBoxImage><![CDATA[//div[@class='career-banner']/div/a/img]]></vFixedBoxImage>
+<vSpace4HeightBelowImage><![CDATA[//div[@class='career-banner']/div]]></vSpace4HeightBelowImage>
+<vSpace4HeightAboveText><![CDATA[//div[@class='desc']/p]]></vSpace4HeightAboveText>
+<vTextSpace5HeightAboveText><![CDATA[//div[@class='desc']/p[2]]]></vTextSpace5HeightAboveText>
+<vSpace4HeightBelowText><![CDATA[//div[@class='list-item']/span[@class='line-break']]]></vSpace4HeightBelowText>
+<vSpace4HeightBelowSecondHead><![CDATA[//div[@class='list-item']/h4]]></vSpace4HeightBelowSecondHead>
+<vSpace4HeightAboveThirdText><![CDATA[//div[@class='list-item']/div[@class='career-item']]]></vSpace4HeightAboveThirdText>
+<vSpace8HeightAboveCareVideo><![CDATA[//div[@class='career-item'][1]/h5[contains(text(),'Innovation / Hardware')]]]></vSpace8HeightAboveCareVideo>
+<vSpace8HeightAboveHeartVideo><![CDATA[//div[@class='career-item'][2]/h5[contains(text(),'Innovation / GUI Team')]]]></vSpace8HeightAboveHeartVideo>
+<vSpace8HeightAboveInnovationVideo><![CDATA[//div[@class='career-item'][3]/h5[contains(text(),'Heart and Project')]]]></vSpace8HeightAboveInnovationVideo>
+
+<vSpace4HeightBelowThirdText1><![CDATA[//div[@class='list-item']/div[@class='career-item'][7]/div[@class='image-career ']]]></vSpace4HeightBelowThirdText1>
+<vSpace4HeightBelowThirdText2><![CDATA[//div[@class='list-item']/div[@class='career-item'][8]/div[@class='image-career ']]]></vSpace4HeightBelowThirdText2>
+<vSpace4HeightBelowThirdText3><![CDATA[//div[@class='list-item']/div[@class='career-item'][9]/div[@class='image-career ']]]></vSpace4HeightBelowThirdText3>
+<vSpace4HeightAboveThirdHead><![CDATA[//span[@class='line-break'][2]]]></vSpace4HeightAboveThirdHead>
+<vSpace4HeightBelowThirdHead><![CDATA[//h4[contains(text(),'City Life')]]]></vSpace4HeightBelowThirdHead>
+<vSPace8HeightAboveVideo><![CDATA[//div[@class='career-item'][10]/h5[contains(text(),'Manchester Vacation Travel Guide')]]]></vSPace8HeightAboveVideo>
+<vSPace8HeightAboveShangangVideo><![CDATA[//div[@class='career-item'][11]/h5[contains(text(),'Living in Manchester')]]]></vSPace8HeightAboveShangangVideo>
+<vSPace8HeightAboveHappyVideo><![CDATA[//div[@class='career-item'][12]/h5[contains(text(),'The Trafford Centre Construction')]]]></vSPace8HeightAboveHappyVideo>
+
+<vSPace8HeightBelowVideo><![CDATA[//div[@class='career-item'][10]/div[contains(@class,'image-career ')]]]></vSPace8HeightBelowVideo>
+<vSPace8HeightBelowShangangVideo><![CDATA[//div[@class='career-item'][11]/div[contains(@class,'image-career ')]]]></vSPace8HeightBelowShangangVideo>
+<vSPace8HeightBelowHappyVideo><![CDATA[//div[@class='career-item'][12]/div[contains(@class,'image-career ')]]]></vSPace8HeightBelowHappyVideo>
+<vSPace4HeightAboveFourthHead><![CDATA[//span[@class='line-break'][3]]]></vSPace4HeightAboveFourthHead>
+<vSpace4HeihtBelowFourthHead><![CDATA[//h4[contains(text(),'Night Life')]]]></vSpace4HeihtBelowFourthHead>
+
+<vSPace8HeightAboveNightViewVideo><![CDATA[//div[@class='career-item'][13]/h5[contains(text(),'Entourage Night Club Manchester')]]]></vSPace8HeightAboveNightViewVideo>
+<vSPace8HeightAboveZhongshanVideo><![CDATA[//div[@class='career-item'][14]/h5[contains(text(),'Gorilla Club Manchester')]]]></vSPace8HeightAboveZhongshanVideo>
+<vSPace8HeightAboveSkyWheelVideo><![CDATA[//div[@class='career-item'][15]/h5[contains(text(),'Metallica - The Prince - Live')]]]></vSPace8HeightAboveSkyWheelVideo>
+
+
+<vSPace8HeightBelowNightViewVideo><![CDATA[//div[@class='career-item'][13]/div[contains(@class,'image-career ')]]]></vSPace8HeightBelowNightViewVideo>
+<vSPace8HeightBelowZhongshanVideo><![CDATA[//div[@class='career-item'][14]/div[contains(@class,'image-career ')]]]></vSPace8HeightBelowZhongshanVideo>
+<vSPace8HeightBelowSkyWheelVideo><![CDATA[//div[@class='career-item'][15]/div[contains(@class,'image-career ')]]]></vSPace8HeightBelowSkyWheelVideo>
+<vSPace4HeightAboveFifthHead><![CDATA[//span[@class='line-break'][4]]]></vSPace4HeightAboveFifthHead>
+
+<vSpace4HeihtBelowFifthHead><![CDATA[//h4[contains(text(),'Schools')]]]></vSpace4HeihtBelowFifthHead>
+
+
+<vSPace8HeightAboveSunYetVideo><![CDATA[//div[@class='career-item'][16]/h5[contains(text(),'The University of Manchester')]]]></vSPace8HeightAboveSunYetVideo>
+<vSPace8HeightAboveMedicalVideo><![CDATA[//div[@class='career-item'][17]/h5[contains(text(),'The University of Salford')]]]></vSPace8HeightAboveMedicalVideo>
+<vSPace8HeightAbovetechnologyVideo><![CDATA[//div[@class='career-item'][18]/h5[contains(text(),'Manchester Enterprise Academy (MEA)')]]]></vSPace8HeightAbovetechnologyVideo>
+
+<vSPace1HeightBelowSunYetVideo><![CDATA[//div[@class='career-item'][16]/div[contains(@class,'image-career ')]]]></vSPace1HeightBelowSunYetVideo>
+<vSPace1HeightBelowMedicalVideo><![CDATA[//div[@class='career-item'][17]/div[contains(@class,'image-career ')]]]></vSPace1HeightBelowMedicalVideo>
+<vSPace1HeightBelowTechnologyVideo><![CDATA[//div[@class='career-item'][18]/div[contains(@class,'image-career ')]]]></vSPace1HeightBelowTechnologyVideo>
+<vSPace1HeightAboveFifthHead><![CDATA[//span[@class='line-break'][4]]]></vSPace1HeightAboveFifthHead>
+<vSpace1HeightFooter><![CDATA[//div[@class='category-container']]]></vSpace1HeightFooter>
+
+<vGutter9Width><![CDATA[//div[@class='career-col-xs-9']]]></vGutter9Width>
+<vGutter16Width1><![CDATA[//div[@class='career-item'][2]]]></vGutter16Width1>
+<vGutter16Width2><![CDATA[//div[@class='career-item'][3]]]></vGutter16Width2>
+</VerifyPixels>
+</Locators>

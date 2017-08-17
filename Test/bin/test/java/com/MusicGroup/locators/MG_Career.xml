@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <CareerPage>
+       <ClickJoinUs><![CDATA[//a[starts-with(text(),'Join Us')]]]></ClickJoinUs>
+       <ClickWhereyouFindUS><![CDATA[//div[@class='career-item'][2]//a]]></ClickWhereyouFindUS>
+     </CareerPage>  
+    <VerifyPixels>
+       <vSpace1Height><![CDATA[//div[@class='career-page mg-header-border career-page-media']]]></vSpace1Height>
+       <vSpace1HeightJoinUs><![CDATA[//h1[starts-with(text(), 'Join Us')]]]></vSpace1HeightJoinUs>
+       <FixedBoxImageWidth><![CDATA[//div[@class='career-search']/img]]></FixedBoxImageWidth>
+       <vSpace4Heightbelow1image><![CDATA[//div[@class='career-search']/h2]]></vSpace4Heightbelow1image>
+       <vSpace4Heightbelow1image1><![CDATA[//div[@class='career-search']/h2/p]]></vSpace4Heightbelow1image1>
+       <fixedboximage><![CDATA[//div[@class='career-search']/img]]></fixedboximage>
+       <vSpace4Heightabovewhatwedo><![CDATA[//div[@class='career-search']]]></vSpace4Heightabovewhatwedo>
+       <vSpace4Heightabovewhatwedo1><![CDATA[//div[@class='career-item']/h5]]></vSpace4Heightabovewhatwedo1>
+       <vSpace4HeightWhereyoufindus><![CDATA[//div[@class='career-item'][2]/h5]]></vSpace4HeightWhereyoufindus>
+       <vspace4heighthowwelive><![CDATA[//div[@class='career-item'][3]/h5]]></vspace4heighthowwelive>
+       <gutter16widthwhereyoufindus><![CDATA[//div[@class='career-item'][2]]]></gutter16widthwhereyoufindus>
+        <gutter16width><![CDATA[//div[@class='career-item'][3]]]></gutter16width>
+        <vSpace12Heightbelow1stimage><![CDATA[//div[@class='career-item']/div]]></vSpace12Heightbelow1stimage>
+        <vSpace12Heightbelow1stimage1><![CDATA[//div[@class='career-item']/div/p[2]]]></vSpace12Heightbelow1stimage1>
+        <vSpace12Heightbelow2ndimage><![CDATA[//div[@class='career-item'][2]/div]]></vSpace12Heightbelow2ndimage>
+        <vSpace12Heightbelow2ndimage1><![CDATA[//div[@class='career-item'][2]/div/p[2]]]></vSpace12Heightbelow2ndimage1>
+        <vSpace12Heightbelow3rdimage><![CDATA[//div[@class='career-item'][3]/div]]></vSpace12Heightbelow3rdimage>
+        <vSpace12Heightbelow3rdimage1><![CDATA[//div[@class='career-item'][3]/div/p[2]]]></vSpace12Heightbelow3rdimage1>
+        <TextSpace35HeightabovesecondPara><![CDATA[//div[@class='career-item']/div/p[2]]]></TextSpace35HeightabovesecondPara>
+        <vSpace1HeightFooter><![CDATA[//div[@class='career-item'][3]/div[@class="desc"]]]></vSpace1HeightFooter>
+        <vSpace1Heighttextabovefooter><![CDATA[//div[@class='career-item'][3]/div/p[5]]]></vSpace1Heighttextabovefooter>
+    </VerifyPixels>
+    <verifypixelwhatwedopage>
+    <vSpace1Height><![CDATA[//div[@class='career-page mg-header-border career-page-media']]]></vSpace1Height>
+    <vSpace1Heightaboveh1text><![CDATA[//div[@class='career-page mg-header-border career-page-media']/div/h1]]></vSpace1Heightaboveh1text>
+    <FixedBoxImageWidth><![CDATA[//div[@class='career-banner']/div//img]]></FixedBoxImageWidth>
+    <vSpace4Heightbelowlargeimage><![CDATA[//div[@class='career-banner']/div]]></vSpace4Heightbelowlargeimage>
+    <vSpace4HeightBelowlargeimagetext1><![CDATA[//div[@class='career-banner']/div[@class='desc']/p]]></vSpace4HeightBelowlargeimagetext1>
+    <TextSpace7Height><![CDATA[//div[@class='career-banner']/div[@class='desc']/p]]></TextSpace7Height>
+    <vSpace4Heightbelow2para><![CDATA[//div[@class='career-banner']/div[@class='desc']/p[2]]]></vSpace4Heightbelow2para>
+    <vSpace4Heightbelow2para1><![CDATA[//div[@class='list-item']]]></vSpace4Heightbelow2para1>
+    <vSpace4Heightabovesmall1image><![CDATA[//div[@class='item-find-us']/h5]]></vSpace4Heightabovesmall1image>
+    <vSpace4Heightabovesmall2image><![CDATA[//div[@class='item-find-us'][2]/h5]]></vSpace4Heightabovesmall2image>
+    <vSpace4Heightabovesmall3image><![CDATA[//div[@class='item-find-us'][3]/h5]]></vSpace4Heightabovesmall3image>
+    <vSpace4Heightabovesmall4image><![CDATA[//div[@class='item-find-us'][4]/h5]]></vSpace4Heightabovesmall4image>
+    <vSpace4Heightabovesmall5image><![CDATA[//div[@class='item-find-us'][5]/h5]]></vSpace4Heightabovesmall5image>
+    <vSpace4Heightabovesmall6image><![CDATA[//div[@class='item-find-us'][6]/h5]]></vSpace4Heightabovesmall6image>
+    <Gutter16Width2image><![CDATA[//div[@class='item-find-us'][2]]]></Gutter16Width2image>
+    <Gutter16Width3image><![CDATA[//div[@class='item-find-us'][3]]]></Gutter16Width3image>
+    <TextSpace2Height1image><![CDATA[//div[@class='item-find-us']//p[@class='more']]]></TextSpace2Height1image>
+    <TextSpace2Height1image1><![CDATA[//div[@class='allcontent']]]></TextSpace2Height1image1>
+    <TextSpace2Height2image><![CDATA[//div[@class='item-find-us'][2]//p[@class='more']]]></TextSpace2Height2image>
+    <TextSpace2Height2image1><![CDATA[//div[@class='item-find-us'][2]//div[@class='allcontent']]]></TextSpace2Height2image1>
+    <TextSpace2Height3image><![CDATA[//div[@class='item-find-us'][2]//p[@class='more']]]></TextSpace2Height3image>
+    <TextSpace2Height3image1><![CDATA[//div[@class='item-find-us'][3]//p[@class='more']//div[@class='shortcontent']]]></TextSpace2Height3image1>
+    <vSpace4heightaboveLinebrake1image><![CDATA[//span[@class='line-break']]]></vSpace4heightaboveLinebrake1image>
+    <vSpace4heightaboveLinebrake1image1><![CDATA[//div[@class='item-find-us'][1]//span/a]]></vSpace4heightaboveLinebrake1image1>
+    <vSpace4heightaboveLinebrake2image1><![CDATA[//div[@class='item-find-us'][2]//span/a]]></vSpace4heightaboveLinebrake2image1>
+    <vSpace4heightaboveLinebrake3image1><![CDATA[//div[@class='item-find-us'][3]//span/a]]></vSpace4heightaboveLinebrake3image1>
+    <vSpaceHeightFooter><![CDATA[//div[@class='list-item']]]></vSpaceHeightFooter>
+    <vSpaceHeightFooter1><![CDATA[//div[@class='item-find-us'][16]//span/a]]></vSpaceHeightFooter1>
+    </verifypixelwhatwedopage>
+</Locators>

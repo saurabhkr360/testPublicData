@@ -1,0 +1,16 @@
+<Locators>
+    <NoResultPage>
+       <entertextinserachfield><![CDATA[//input[@id='search']]]></entertextinserachfield>
+       <ClickBehringerx32Product><![CDATA[//a[@href='/Categories/Behringer/Mixers/Digital-Mixers/X32-COMPACT-TP/p/P0B18']]]></ClickBehringerx32Product>
+       <clickdiscoverlink><![CDATA[//a[@class='btn-discover']]]></clickdiscoverlink>
+       
+    </NoResultPage>   
+    <VerifyPixels>
+      <textspace5Height><![CDATA[//div[@class='item_container']]]></textspace5Height>
+      <gutter50width1col><![CDATA[//div[@class='searchEmpty result-block']]]></gutter50width1col>
+      <gutter50width2col><![CDATA[//div[@id='search-results-grid']]]></gutter50width2col>
+      <textSpace1height><![CDATA[//div[@id='search-results-grid']//h3]]></textSpace1height>
+      <vSpace2Height><![CDATA[//div[@id='search-results-grid']]]></vSpace2Height>
+    </VerifyPixels>
+    
+</Locators>

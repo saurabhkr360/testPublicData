@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+<B2B_ViewAccountPage>
+<clickwelcomeicon><![CDATA[//li[@class='logged_in']]]></clickwelcomeicon>
+<clickViewAccount><![CDATA[//a[contains(text(),'View Account')]]]></clickViewAccount>
+<vSpace1HeightHeaderLocator><![CDATA[//div[@class='form-mg-account CustAccount']]]></vSpace1HeightHeaderLocator>
+<vSpace1HeightAboveMyMusicID><![CDATA[//div[@class='col col-md-8 right-panel']]]></vSpace1HeightAboveMyMusicID>
+<vSpace1HeightAboveMyMusicIDtext><![CDATA[//div[@class='content']/h2]]></vSpace1HeightAboveMyMusicIDtext>
+<vSpace1HeightAboveCustomer><![CDATA[//div[@class='col col-md-8 right-panel']]]></vSpace1HeightAboveCustomer>
+<vSpace1HeightAboveCustomer1><![CDATA[//div[@class='col col-md-8 right-panel']/h3]]></vSpace1HeightAboveCustomer1>
+<textSpace1Height><![CDATA[//div[@class='content']/p]]></textSpace1Height>
+<textSpace3Height><![CDATA[//div[@class='content']/ul/li]]></textSpace3Height>
+<gutter36width><![CDATA[//div[@class='col col-md-4 left-panel']]]></gutter36width>
+<gutter8Width><![CDATA[//div[@class='col col-md-8 right-panel']]]></gutter8Width>
+<gap17width><![CDATA[//button[@class="next-acc-button"]]]></gap17width>
+<gutter9Width><![CDATA[//div[@class='right-col']]]></gutter9Width>
+<vSpace1Heightsoldto><![CDATA[//p[@class='sold-to-add']]]></vSpace1Heightsoldto>
+<vSpace1Heightsoldtobottom><![CDATA[//div[@class='row acount-information']]]></vSpace1Heightsoldtobottom>
+<vSpace1Heightbelowclosebutton><![CDATA[//div[@class='col col-md-8 right-panel']]]></vSpace1Heightbelowclosebutton>
+<vSpace1Heightbelowclosebutton1><![CDATA[//div[@class='button-acount-information pull-right']]]></vSpace1Heightbelowclosebutton1>
+<vspace1Heightfooter><![CDATA[//div[@class='button-acount-information pull-right']]]></vspace1Heightfooter>
+<vspace1Heightfooter1><![CDATA[//div[@class='yCmsContentSlot footer']]]></vspace1Heightfooter1>
+</B2B_ViewAccountPage>
+</Locators>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <ForgotPassword>
+       <ClickForgotPassword><![CDATA[//a[@class='password-forgotten-new']]]></ClickForgotPassword>
+       <vSpace1HeightaboveReset><![CDATA[//div[@class='yCmsContentSlot left-question col-md-4']]]></vSpace1HeightaboveReset>
+       <VSpace1HeightForgot><![CDATA[//div[@class='content']/h2]]></VSpace1HeightForgot>
+       <vSpace1Height><![CDATA[//div[@class='form-question']]]></vSpace1Height>
+       <vSpace1Heightright><![CDATA[//div[@class='right-question col-md-8']]]></vSpace1Heightright>
+       <vspaceHeightfooter><![CDATA[//div[@class='yCmsContentSlot footer']]]></vspaceHeightfooter>
+       <gap17width><![CDATA[//input[@id='email']]]></gap17width>
+       <vSpace1Heightbelowinput><![CDATA[//div[@class='mg-id-wrapper email-rescue']]]></vSpace1Heightbelowinput>
+       <vSpace1Heightabovecancel><![CDATA[//div[@class='buttonForget']]]></vSpace1Heightabovecancel>
+       <gap17width1><![CDATA[//button[@class='form btnCancel']]]></gap17width1>
+       <textSpace3Height><![CDATA[//div[@class='content']/p]]></textSpace3Height>
+       <textSpace3Height1><![CDATA[//div[@class='content']/h2]]></textSpace3Height1>
+    </ForgotPassword>
+  <InActiveAccount>
+    <vSpace1Header><![CDATA[//div[@class='form-question']]]></vSpace1Header>
+    <vSpaceHeightAboveMusicID><![CDATA[//div[@class='yCmsContentSlot left-question col-md-4']]]></vSpaceHeightAboveMusicID>
+    <vSpace4HeightAboveMusicIDText><![CDATA[//div[@class='yCmsContentSlot left-question col-md-4']/div/h2]]></vSpace4HeightAboveMusicIDText>
+    <vSpace1TextHeight><![CDATA[//div[@class='yCmsContentSlot left-question col-md-4']/div/p]]></vSpace1TextHeight>
+    <vSpaceHeight2Col><![CDATA[//div[@class='right-question col-md-8']]]></vSpaceHeight2Col>
+    <ParagraphSpave1Height2Col><![CDATA[//div[@class='right-question col-md-8']/div/div/p]]></ParagraphSpave1Height2Col>
+    <vSpace1HeightFooter><![CDATA[//div[@class='yCmsContentSlot footer']]]></vSpace1HeightFooter>
+  </InActiveAccount>
+  <ChangePassword>
+     <clickwelcomeicon><![CDATA[//li[@class='logged_in']]]></clickwelcomeicon>
+     <clickViewAccount><![CDATA[//a[contains(text(),'View Account')]]]></clickViewAccount>
+     <clickChangePassword><![CDATA[//button[@class='next-acc-button']]]></clickChangePassword>
+     <vSpace1Header><![CDATA[//div[@class='form-mg-account']]]></vSpace1Header>
+     <vSpaceHeightAboveChangeyourPassword><![CDATA[//div[@class='col-md-4 left-panel changepwd']]]></vSpaceHeightAboveChangeyourPassword>
+     <vSpace4HeightAboveMusicIDText><![CDATA[//div[@class='yCmsContentSlot left-question col-md-4']/div/h2]]></vSpace4HeightAboveMusicIDText>
+     <vSpace1TextHeight><![CDATA[//div[@class='col-md-4 left-panel changepwd']/p]]></vSpace1TextHeight>
+     <vSpaceHeight2Col><![CDATA[//div[@class='col-md-8 right-panel changepwd']]]></vSpaceHeight2Col>
+     <ParagraphSpave1Height2Col><![CDATA[//div[@class='right-question col-md-8']/div/div/p]]></ParagraphSpave1Height2Col>
+     <vSpace1HeightFooter><![CDATA[//div[@class='yCmsContentSlot footer']]]></vSpace1HeightFooter>
+     <vSpace9HeightOldPassword><![CDATA[//div[@class='row innerchangepwform'][1]]]></vSpace9HeightOldPassword>
+     <vSpace9HeightNewPassword><![CDATA[//div[@class='row innerchangepwform'][2]]]></vSpace9HeightNewPassword>
+     <vSpace9HeightConfirmPassword><![CDATA[//div[@class='row innerchangepwform'][3]]]></vSpace9HeightConfirmPassword>
+     <vSpace1Heightabovebutton><![CDATA[//div[@class='right-side-btn']]]></vSpace1Heightabovebutton>
+     <gap17width><![CDATA[//button[@class='next-change-pw next-acc-button']]]></gap17width>
+  </ChangePassword>
+</Locators>

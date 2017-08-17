@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<OurStory>
+<ClickonJoinUs><![CDATA[//a[contains(text(), 'Join Us')]]]></ClickonJoinUs>
+<ClickOnWhatWeDo><![CDATA[//a[@href='/joinus/what-we-do']/img]]></ClickOnWhatWeDo>
+</OurStory>
+<VerifyPixels>
+<vSpaceAboveHeightHead><![CDATA[//div[@id='content']/div[@class='career-page mg-header-border career-page-media']]]></vSpaceAboveHeightHead>
+<VerifyImage><![CDATA[//div[@class='career-banner']/div[@class='image ']/a/img]]></VerifyImage>
+<vSPaceBelowHeightHead><![CDATA[//div[@id='content']/div[@class='career-page mg-header-border career-page-media']/div/h1]]></vSPaceBelowHeightHead>
+<vSPace4BelowImage><![CDATA[//div[@class='career-banner']/div[@class='image ']]]></vSPace4BelowImage>
+<vSpace4AboveText><![CDATA[//div[@class='career-banner']/div[@class='desc']/p]]></vSpace4AboveText>
+<vSpace4BelowText><![CDATA[//div[@class='career-banner']/div[@class='desc']/p[2]]]></vSpace4BelowText>
+<vSpace4BelowFirstText><![CDATA[//div[@class='career-banner']/div[@class='desc']/p[3]]]></vSpace4BelowFirstText>
+<vTextSpace4AboveSecondText><![CDATA[//div[@class='career-page mg-header-border career-page-media']/div[@class='content']/span[@class='line-break']]]></vTextSpace4AboveSecondText>
+<vTextSpaceAboveListItem><![CDATA[//div[@class='list-item']/div[@class='item-we-do']]]></vTextSpaceAboveListItem>
+<vTextSpaceAboveFeelItem><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][2]]]></vTextSpaceAboveFeelItem>
+<vTextSpaceAboveCareItem><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]]]></vTextSpaceAboveCareItem>
+<vTextSpaceAboveHeartItem><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][4]]]></vTextSpaceAboveHeartItem>
+<vTextSpace1HeightBelowTouch><![CDATA[//div[@class='list-item']/div[@class='item-we-do']/h5]]></vTextSpace1HeightBelowTouch>
+<vTextSpace1HeightAboveTouchText><![CDATA[//div[@class='list-item']/div[@class='item-we-do']/p]]></vTextSpace1HeightAboveTouchText>
+<vTextSpace1HeightImageTouch><![CDATA[//div[@class='list-item']/div[@class='item-we-do']/div[@class='image-item-we-do ']]]></vTextSpace1HeightImageTouch>
+<vSpace8HeightBelowImageTouch><![CDATA[//div[@class='list-item']/div[@class='item-we-do']//div/p[@class='more']]]></vSpace8HeightBelowImageTouch>
+<vTextSpace1HeightBelowFeel><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][2]/h5]]></vTextSpace1HeightBelowFeel>
+<vTextSpace1HeightAboveFeelText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][2]/p]]></vTextSpace1HeightAboveFeelText>
+<vTextSpace1HeightImageFeel><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][2]/div[@class='image-item-we-do ']]]></vTextSpace1HeightImageFeel>
+<vSpace8HeightBelowImageFeel><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][2]//div/p[@class='more']]]></vSpace8HeightBelowImageFeel>
+
+<vTextSpace1HeightBelowCare><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]/h5]]></vTextSpace1HeightBelowCare>
+<vTextSpace1HeightAboveCareText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]/p]]></vTextSpace1HeightAboveCareText>
+<vTextSpace1HeightImageCare><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]/div[@class='image-item-we-do ']]]></vTextSpace1HeightImageCare>
+<vTextSpace1HeightBelowHeart><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]/h5]]></vTextSpace1HeightBelowHeart>
+<vTextSpace1HeightAboveCareHeart><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]/p]]></vTextSpace1HeightAboveCareHeart>
+<vTextSpace1HeightImageHeart><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][4]/div[@class='image-item-we-do ']]]></vTextSpace1HeightImageHeart>
+<vSpace8HeightBelowImageCare><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]//div/p[@class='more']]]></vSpace8HeightBelowImageCare>
+
+<vSpace8HeightBelowImageHeart><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][3]//div/p[@class='more']]]></vSpace8HeightBelowImageHeart>
+<ClickOnMoreLink><![CDATA[//div[@class='list-item']/div[@class='item-we-do']//div/p[@class='more']/span/a]]></ClickOnMoreLink>
+<vTextSpace2MoreLink><![CDATA[//div[@class='list-item']/div[@class='item-we-do']//div/p[@class='more']/div[@class='allcontent']/br]]></vTextSpace2MoreLink>
+<vTextSpace4MoreLink><![CDATA[//div[@class='list-item']/span[@class='line-break']]]></vTextSpace4MoreLink>
+<vTextSpace4HeightInnovationText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][5]]]></vTextSpace4HeightInnovationText>
+<vTextSpace4HeightExcellenceText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][6]]]></vTextSpace4HeightExcellenceText>
+<vTextSpace4HeightOperationText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][7]]]></vTextSpace4HeightOperationText>
+<vTextSpace4HeightTreasureText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][8]]]></vTextSpace4HeightTreasureText>
+<vTextSpace4HeightLegalText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][9]]]></vTextSpace4HeightLegalText>
+<vTextSpace8HeightInnovationText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][5]/p]]></vTextSpace8HeightInnovationText>
+<vTextSpace8HeightExcellenceText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][6]/p]]></vTextSpace8HeightExcellenceText>
+<vTextSpace8HeightOperationText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][7]/p]]></vTextSpace8HeightOperationText>
+<vTextSpace8HeightTreasureText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][8]/p]]></vTextSpace8HeightTreasureText>
+<vTextSpace8HeightLegalText><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][9]/p]]></vTextSpace8HeightLegalText>
+
+<vTextSpace8HeightInnovationImage><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][5]/div[@class='image-item-we-do ']]]></vTextSpace8HeightInnovationImage>
+<vTextSpace8HeightExcellenceImage><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][6]/div[@class='image-item-we-do ']]]></vTextSpace8HeightExcellenceImage>
+<vTextSpace8HeightOperationImage><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][7]/div[@class='image-item-we-do ']]]></vTextSpace8HeightOperationImage>
+<vTextSpace8HeightTreasureImage><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][8]/div[@class='image-item-we-do ']]]></vTextSpace8HeightTreasureImage>
+<vTextSpace8HeightLegalImage><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][9]/div[@class='image-item-we-do ']]]></vTextSpace8HeightLegalImage>
+
+<ClickOnLegalMoreLink><![CDATA[//div[@class='list-item']/div[@class='item-we-do'][9]//div/p[@class='more']/span/a]]></ClickOnLegalMoreLink>
+<vTextSpace4BelowData><![CDATA[//div[@class='list-item']/span[@class='line-break'][2]]]></vTextSpace4BelowData>
+
+</VerifyPixels>
+</Locators>

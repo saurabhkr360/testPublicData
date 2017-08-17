@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<AskAQuestion>
+<ClickSupportlinkonhomepage><![CDATA[//a[starts-with(text(), 'Support')]]]></ClickSupportlinkonhomepage>
+<ClickMidasImage><![CDATA[//a[@class="logo-brands logo-midas"]]]></ClickMidasImage>
+<ClickContactCare><![CDATA[//a[starts-with(text(), 'Contact Care')]]]></ClickContactCare>
+<clickcontactuslocator><![CDATA[//a[@id="sidebar_contactus"]]]></clickcontactuslocator>
+<ClickContactcareimage><![CDATA[//div[@class="support-body-3"]/div[4]/div/a/img]]></ClickContactcareimage>
+<clickbhringerproject><![CDATA[//a[@class="logo-brands logo-behringer"]]]></clickbhringerproject>
+<vSpace1Height><![CDATA[//div[@id="askaquestionlanding"]]]></vSpace1Height>
+
+<h3AskAQuestionLocator><![CDATA[//h3[starts-with(text(), 'Ask a Question')]]]></h3AskAQuestionLocator>
+<p3textspace1loctor><![CDATA[//p[starts-with(text(), 'In our knowledge base')]]]></p3textspace1loctor>
+<vSpace1HeightBelowParagraph><![CDATA[//div[@class="askqusetion-landing-page"]]]></vSpace1HeightBelowParagraph>
+<vspace1Heightifyoucantext><![CDATA[//p[starts-with(text(), 'If you can')]]]></vspace1Heightifyoucantext>
+<vspace1heightfirstImage><![CDATA[//div[@class='container question-container']//div[@class="row"]]]></vspace1heightfirstImage>
+<vspace8height><![CDATA[//p[starts-with(text(), 'Pre Sales')]]]></vspace8height>
+<vspace8height1stimage><![CDATA[//div[@class="col-lg-3 a-question-item ask-question-item-0"]/img]]></vspace8height1stimage>
+<vspace8height2col><![CDATA[//p[starts-with(text(), 'Warranty Request')]]]></vspace8height2col>
+<vspace8height2ndimage><![CDATA[//div[@class="col-lg-3 a-question-item ask-question-item-1"]/img]]></vspace8height2ndimage>
+<vspace8height3col><![CDATA[//p[starts-with(text(), 'Product Technical Support')]]]></vspace8height3col>
+<vspace8height3rdimage><![CDATA[//div[@class="col-lg-3 a-question-item ask-question-item-2"]/img]]></vspace8height3rdimage>
+<vspace8height4col><![CDATA[//p[starts-with(text(), 'General Inquiry')]]]></vspace8height4col>
+<vspace8height4thimage><![CDATA[//div[@class="col-lg-3 a-question-item ask-question-item-3"]/img]]></vspace8height4thimage>
+<vspace23Heightcoyright><![CDATA[//li[starts-with(text(), 'Copyright © 2015 MIDAS')]]]></vspace23Heightcoyright>
+<vSpace23Heightfooter><![CDATA[//footer[@class="copy-right-simple"]]]></vSpace23Heightfooter>
+</AskAQuestion>
+</Locators>

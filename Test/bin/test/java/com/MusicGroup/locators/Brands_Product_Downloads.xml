@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<BrandsProductDownloads>    
+   <MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+       <ClickonBehringer><![CDATA[//a[contains(@class,'brand-behringer')]]]></ClickonBehringer>
+ <ClickonProduct><![CDATA[//ul[@id='top-nav-links']/li/a[contains(@href, '/Brands/Behringer/')]]]></ClickonProduct>
+        <ClickonMixers><![CDATA[ //ul[contains(@class,'product-list')]/li/h4]]></ClickonMixers> 
+        <searchproduct><![CDATA[//input[@id='search']]]></searchproduct>
+       <clickonproduct><![CDATA[//div[contains(@class,'col-xs-4')]//div[contains(@class,'product-title')]//a]]]></clickonproduct>
+         <product><![CDATA[//div[contains(@class,'col-xs-4')]//div[contains(@class,'product-title')]//a]]]></product>           
+    <ClickDownloadbuttononproductpage><![CDATA[//a[@class='btn-download']]]></ClickDownloadbuttononproductpage>           
+   <!--   <ProductTitle><![CDATA[//div[@class='product-title']//a]]]></ProductTitle>-->
+    <ProductTitle><![CDATA[//div/a[text()='X32']]]></ProductTitle>
+    <vSpace1Heightlocator><![CDATA[//div[@class='product-download-container']]]></vSpace1Heightlocator>
+    <vSpace4Heightlocator><![CDATA[//h3[@class='product-download-info-title']]]></vSpace4Heightlocator>
+    <vSpace3HightLocator><![CDATA[//div[@class="col-xs-4 product-box-image download"]]]></vSpace3HightLocator>
+    <vSpace2HightLocator><![CDATA[//div[@class="img-divider"]]]></vSpace2HightLocator>
+    <Textspace10heightlocator><![CDATA[//p[contains(@class,"download_description")]]]></Textspace10heightlocator>
+   <!--  <Fixedimagebox30heightlocator><![CDATA[//div[@class="product-box-image-holder"]//img]]]></Fixedimagebox30heightlocator>-->
+   <Fixedimagebox30heightlocator><![CDATA[//div[@class="product-box-image-holder"]/a/img]]></Fixedimagebox30heightlocator>
+    <Fixedimagebox30widthlocator><![CDATA[//div[@class="product-box-image-holder"]/a/img]]></Fixedimagebox30widthlocator>
+    <Gutter16widthlocator><![CDATA[//div[@class="col-xs-4 product-box-image download"]]]></Gutter16widthlocator>
+    <vSpace2HightLocatorAboveLargetextinImagebox><![CDATA[//div[@class="col-xs-4 product-box-image download"]/p]]></vSpace2HightLocatorAboveLargetextinImagebox>
+    <vspace2HightLocatorAboveSeeAllImagesText><![CDATA[//div[@class="button-collapse"]]]></vspace2HightLocatorAboveSeeAllImagesText>
+   <vSpace4Heightlocator_AboveDocumentationText><![CDATA[//section[@id="documentation"]/h3[@class='product-download-info-title']]]></vSpace4Heightlocator_AboveDocumentationText>
+   <vSpace3HightLocatorunderdocumentaionsection><![CDATA[//div[@class='col-xs-4 product-box-image-document download']]]></vSpace3HightLocatorunderdocumentaionsection>
+   <vspace2HightLocatorAboveSeeAlldocumentation><![CDATA[//div[@class="button-collapse"]]]></vspace2HightLocatorAboveSeeAlldocumentation>
+    <vSpace1HeightlocatorUnderSeeAllDocumentationText><![CDATA[//div[@id='BrandFooter']]]></vSpace1HeightlocatorUnderSeeAllDocumentationText>
+    <icon20widthlocator><![CDATA[//i[@class="mg-icon mg-icon-md mg-icon-quickstart_guide"]]]></icon20widthlocator>
+    </BrandsProductDownloads>     
+</Locators>

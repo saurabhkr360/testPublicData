@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="B2B_SearchSuggestionPage"
+	annotations="JDK">
+	<test name="B2B_SearchSuggestionPage" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="test.java.com.MusicGroup.scripts.B2BTestCases.B2B_SearchSuggestion" />
+		</classes>		
+	</test>
+</suite> 

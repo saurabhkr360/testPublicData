@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<PageBNotFound>
+<sorrytext><![CDATA[//h1[starts-with(text(),'Sorry')]]]></sorrytext>
+</PageBNotFound>>
+</Locators>

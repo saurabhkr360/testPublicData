@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+   <StoreAccount>
+       <ClickWelcome><![CDATA[//li[@class='logged_in']]]></ClickWelcome>
+       <textspace3Height1><![CDATA[//ul[@id='signOut']/li[1]]]></textspace3Height1>
+       <textspace3Height2><![CDATA[//ul[@id='signOut']/li[2]]]></textspace3Height2>
+       <textspace3Height3><![CDATA[//ul[@id='signOut']/li[3]]]></textspace3Height3>
+       <textspace3Height4><![CDATA[//ul[@id='signOut']/li[4]]]></textspace3Height4>
+       <textspace3Height5><![CDATA[//ul[@id='signOut']/li[5]]]></textspace3Height5>
+       <Gutter45Width><![CDATA[//ul[@id='signOut']/li[5]]]></Gutter45Width>
+       <text5spaceHeight><![CDATA[//span[@class='text-smaller']]]></text5spaceHeight>
+       <text5spaceHeight1><![CDATA[//ul[@id='signOut']/li/a]]></text5spaceHeight1>
+    </StoreAccount>
+</Locators>

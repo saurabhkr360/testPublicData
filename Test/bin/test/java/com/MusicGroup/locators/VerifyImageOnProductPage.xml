@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <ProductOverViewPage>
+       <MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+       <ClickBrandbehringer><![CDATA[//a[contains(@class,'brand-midas')]]]></ClickBrandbehringer>
+       <ClickProductLink><![CDATA[//div[@class='col-xs-8 pull-right text-right']//ul[@id='top-nav-links']//li/a[contains(text(),'Products')]]]></ClickProductLink>
+       
+       
+       <ClickComputerAudio><![CDATA[//div[@id='accordian']/ul[@class='product-list']/li/h4[contains(text(),'Mixers')]]]></ClickComputerAudio>
+       <ClickAudioInterface><![CDATA[//ul[@class='sub-product-list']//li/a[contains(text(),'Digital Mixers')]]]></ClickAudioInterface>
+        <entertextinserachfield><![CDATA[//input[@id='search']]]></entertextinserachfield>
+        
+       <ClickProductUMC202HD><![CDATA[//div[@class='product-title']/a[contains(text(),'PRO9-CC-IP')]]]></ClickProductUMC202HD>
+      
+    </ProductOverViewPage>
+   
+ <VerifyPixel>
+ <vImage1><![CDATA[//div[@class='img-container valignBtm']/img]]></vImage1>
+ <vImage2><![CDATA[//div[@class='section']/div[@class='left']/div/img]]></vImage2>
+ <vImage3><![CDATA[//div[@class='section']/div[@class='right']/div/img]]></vImage3>
+ <vImage4><![CDATA[//div[@class='no-gutter img-block text-center']/img]]></vImage4>
+ 
+ <vImage5><![CDATA[//img[contains(@src,'https://media.music-group.com/media/PLM/data/images/overview/PRO9-CC-IP_P0AS7_PFI4-I_P.jpg')]]]></vImage5>
+  <vImage6><![CDATA[//div[@class='right']//img[contains(@src ,'https://media.music-group.com/media/PLM/data/images/overview/PRO9-CC-IP_P0AS7_PFI5-I_P.jpg')]]]></vImage6>
+  <vImage7><![CDATA[//img[contains(@src ,'https://media.music-group.com/media/PLM/data/images/overview/PRO9-CC-IP_P0AS7_PFI6-I_P.jpg')]]]></vImage7>
+  <vImage8><![CDATA[//img[contains(@src ,'//media.music-group.com/media/sys_master/hf9/h16/8826044973086.jpg')]]]></vImage8>
+  
+    </VerifyPixel>
+    
+</Locators>

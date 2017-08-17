@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<B2BHourlyCheck>
+<CountProducts><![CDATA[//div[@class='productGrid product-grid']/ul/li]]></CountProducts>
+</B2BHourlyCheck>
+</Locators>

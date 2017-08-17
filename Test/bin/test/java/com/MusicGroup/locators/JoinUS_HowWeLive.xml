@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<OurStory>
+<ClickonJoinUs><![CDATA[//a[contains(text(), 'Join Us')]]]></ClickonJoinUs>
+<ClickOnHowWeLive><![CDATA[//a[@href='/joinus/how-we-live']/img]]></ClickOnHowWeLive>
+</OurStory>
+<VerifyPixels>
+<vSpaceAboveHeightHead><![CDATA[//div[@id='content']/div[@class='career-page mg-header-border career-page-media']]]></vSpaceAboveHeightHead>
+<vSPaceBelowHeightHead><![CDATA[//div[@id='content']/div[@class='career-page mg-header-border career-page-media']/div/h1]]></vSPaceBelowHeightHead>
+<vSPace4BelowImage><![CDATA[//div[@class='career-banner']/div[@class='image ']]]></vSPace4BelowImage>
+<vSPace4BelowImageHeight><![CDATA[//div[@class='career-banner']/div[@class='image ']/a/img]]></vSPace4BelowImageHeight>
+<vSpace4BelowText><![CDATA[//div[@class='career-banner']/div[@class='desc']/p]]></vSpace4BelowText>
+<vSpace4AboveText><![CDATA[//div[@class='career-banner']/div[@class='desc']/p[2]]]></vSpace4AboveText>
+<vSpace1AboveSecondHead><![CDATA[//div[@class='content']/span[@class='line-break']]]></vSpace1AboveSecondHead>
+<vSpace1SecondTextHeight><![CDATA[//div[@class='content']/h1[2]]]></vSpace1SecondTextHeight>
+<vSPaceBImage2Height><![CDATA[//div[@class='content']/div[@class='disp-img']]]></vSPaceBImage2Height>
+<vSpace1Image3Height><![CDATA[//div[@class='list-item']/span[@class='line-break']]]></vSpace1Image3Height>
+<vSPaceBImage5Height><![CDATA[//div[@class='content']/div[@class='disp-img'][5]]]></vSPaceBImage5Height>
+<vSpace1MusicGroupTV><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][1]/h5]]></vSpace1MusicGroupTV>
+<vSpace1StreetLife><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][2]/h5]]></vSpace1StreetLife>
+<vSpace1Seatle><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][3]/h5]]></vSpace1Seatle>
+
+<vSpace1MusicGroupTVFull><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][1]]]></vSpace1MusicGroupTVFull>
+<vSpace1StreetLifeFull><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][2]]]></vSpace1StreetLifeFull>
+<vSpace1SeatleFull><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][3]]]></vSpace1SeatleFull>
+
+<vSpace1MusicGroupTVImage><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][1]/div[@class='image-How-We-Live ']]]></vSpace1MusicGroupTVImage>
+<vSpace1StreetLifeImage><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][2]/div[@class='image-How-We-Live ']]]></vSpace1StreetLifeImage>
+<vSpace1SeatleImage><![CDATA[//div[@class='list-item']/div[@class='How-We-Live'][3]/div[@class='image-How-We-Live ']]]></vSpace1SeatleImage>
+<vSPaceBImage2HeightWidth><![CDATA[//div[@class='content']/div[@class='disp-img']/img]]></vSPaceBImage2HeightWidth>
+</VerifyPixels>
+</Locators>

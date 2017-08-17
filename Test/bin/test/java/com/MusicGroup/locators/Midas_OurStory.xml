@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <OurStory>
+       <ClickToggleMenu><![CDATA[//i[@class='icon-menu icon-menu-login']]]></ClickToggleMenu>
+       <ClickMidasBrand><![CDATA[//a[@class='brand-midas']]]></ClickMidasBrand>
+       <ClickOurStoryMenu><![CDATA[//a[contains(text(),'Our Story')]]]></ClickOurStoryMenu>
+    </OurStory>  
+    <VerifyPixels>
+       <vSpace1Height><![CDATA[//div[@class='banner-caption']/h1[@class='mg-heading-h1']]]></vSpace1Height>
+       <textSpace6Height><![CDATA[//h3[@class='text-center sub-title-tag']]]></textSpace6Height>
+       <textSpaceHeightabovewatchvideo><![CDATA[//h3[@class='text-center watch-vid']]]></textSpaceHeightabovewatchvideo>
+       <bnvSpace1height><![CDATA[//div[contains(@class,'top-margin-container')]]]></bnvSpace1height> 
+       <vSpace4Height><![CDATA[//p[@class='featured-img-ourstory']/img]]></vSpace4Height>
+       <vSpace1Heightaboveimagesbox><![CDATA[//div[@id='our-story-years']/div[@id='content-5']]]></vSpace1Heightaboveimagesbox>
+       <paragraphspace2Height><![CDATA[//span[@class='headline']]]></paragraphspace2Height>
+       <paragraphspace2Height1><![CDATA[//span[@class='year']]]></paragraphspace2Height1>
+       <FixedImageswidthheight><![CDATA[//li[@class='img-seperate-block col-md-2 mTSThumbContainer'][4]]]></FixedImageswidthheight>
+       <FixedImagewidthHeightMain><![CDATA[//p[@class='featured-img-ourstory']/img]]></FixedImagewidthHeightMain>
+    </VerifyPixels> 
+</Locators>

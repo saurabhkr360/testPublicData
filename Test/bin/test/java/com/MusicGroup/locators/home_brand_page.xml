@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<BrandHomePage>
+<clickonBrandTab><![CDATA[//ul[@id="top-nav-links"]//a[starts-with(text(), 'Brands')]]]></clickonBrandTab>
+<vSpace1Height><![CDATA[//div[@ class="brands_page_home"]]]></vSpace1Height>
+<gutter8width><![CDATA[//div[@ class="brands_page_home_content"]]]></gutter8width>
+<typicalbrandpagewidthMidas><![CDATA[//section[@class="row brands_page_logos-container"]/div]]></typicalbrandpagewidthMidas>
+<typicalbrandpagewidthklarktechnik><![CDATA[//section[@class="row brands_page_logos-container"]/div[2]]]></typicalbrandpagewidthklarktechnik>
+<typicalbrandpageLabGruppen><![CDATA[//section[@class="row brands_page_logos-container"]/div[3]]]></typicalbrandpageLabGruppen>
+<typicalbrandpageLake><![CDATA[//section[@class="row brands_page_logos-container"]/div[4]]]></typicalbrandpageLake>
+<typicalbrandpageTannoy><![CDATA[//section[@class="row brands_page_logos-container"]/div[5]]]></typicalbrandpageTannoy>
+<typicalbrandpageTurbosound><![CDATA[//section[@class="row brands_page_logos-container"]/div[6]]]></typicalbrandpageTurbosound>
+<typicalbrandpageTCElectronic><![CDATA[//section[@class="row brands_page_logos-container"]/div[7]]]></typicalbrandpageTCElectronic>
+<typicalbrandpageTCHelicon><![CDATA[//section[@class="row brands_page_logos-container"]/div[8]]]></typicalbrandpageTCHelicon>
+<typicalbrandpageBehringer><![CDATA[//section[@class="row brands_page_logos-container"]/div[9]]]></typicalbrandpageBehringer>
+<typicalbrandpageBugera><![CDATA[//section[@class="row brands_page_logos-container"]/div[10]]]></typicalbrandpageBugera>
+<typicalbrandpageDda><![CDATA[//section[@class="row brands_page_logos-container"]/div[11]]]></typicalbrandpageDda>
+<v1spaceHeightAboveMidas><![CDATA[//div[@class='callout-box-image']/div]]></v1spaceHeightAboveMidas>
+<v1spaceHeighrsection><![CDATA[//section[@class='row brands_page_logos-container']]]></v1spaceHeighrsection>
+<v1spaceHeightbelowparagraph><![CDATA[//div[@ class="brands_page_home_content"]]]></v1spaceHeightbelowparagraph>
+<v1spaceheightbelow3paragraph><![CDATA[//div[@ class="brands_page_home_content"]//p[1]]]></v1spaceheightbelow3paragraph>
+<v1spaceheightbelow3paragraph2><![CDATA[//div[@ class="brands_page_home_content"]//p[2]]]></v1spaceheightbelow3paragraph2>
+</BrandHomePage>
+</Locators>

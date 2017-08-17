@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<MusicalInstrument_HomePage>
+<clickCreationimage><![CDATA[//div[@class='spotlight']/a[@href='/creation']]]></clickCreationimage>
+<clickMusicalIntrumentimage><![CDATA[//div[@class='spotlight']/a[@href="/musicalinstrument"]]]></clickMusicalIntrumentimage>
+<HomeBillboardlocator><![CDATA[//div[@class="slide-item"]/a/img]]></HomeBillboardlocator>
+
+<linedivide1><![CDATA[//div[@class="spotlight"][1]]]></linedivide1>
+<linedivide2><![CDATA[//div[@class="spotlight"][2]]]></linedivide2>
+<linedivide3><![CDATA[//div[@class="spotlight"][3]]]></linedivide3>
+<linedivide4><![CDATA[//div[@class="spotlight"][4]]]></linedivide4>
+
+<spotlight1image><![CDATA[//div[@class="spotlight"]/a/img]]></spotlight1image>
+<spotlight2image><![CDATA[//div[@class="spotlight"][2]/a/img]]></spotlight2image>
+<spotlight3image><![CDATA[//div[@class="spotlight"][3]/a/img]]></spotlight3image>
+<spotlight4image><![CDATA[//div[@class="spotlight"][4]/a/img]]></spotlight4image>
+
+</MusicalInstrument_HomePage>
+ </Locators>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<MgUnifiedGlobalSupport>
+<MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+<ClickonMidas><![CDATA[//a[contains(@class,'brand-midas')]]]></ClickonMidas>
+<ClickonSupport><![CDATA[//a[@class="btn-support"]]]></ClickonSupport>
+<vSpace1Height><![CDATA[//div[@class='content']]]></vSpace1Height>
+<vspace1hightbelowimagebox><![CDATA[//div[@class='left-block-sp pull-left']]]></vspace1hightbelowimagebox>
+<imglocator><![CDATA[//div[@class='righ-block-sp']/img]]></imglocator>
+<imglocatorheight><![CDATA[//div[@class='righ-block-sp']]]></imglocatorheight>
+<vSpace2HeightAboveMidasImage><![CDATA[//div[@class='col-lg-4 no-gutter']]]></vSpace2HeightAboveMidasImage>
+<BrandAreaLogo><![CDATA[//div[@class='container brand-logo-firstline']/div/div[2]]]></BrandAreaLogo>
+<BrandAreah><![CDATA[//a[@class='logo-brands logo-klarkteknik']/img]]></BrandAreah>
+<vSpace1HeightAllocator><![CDATA[//div[@id="globalSupportFormmidas"]//div[@class='support-body-2']]]></vSpace1HeightAllocator>
+<vspacelocatorbelowgeneraltext><![CDATA[//div[@id="globalSupportFormmidas"]//div[@class='support-body-3']/h4]]></vspacelocatorbelowgeneraltext>
+<vspace4heightlocatorAboverwheretobuy><![CDATA[//div[@id="globalSupportFormmidas"]/div[@class='support-body-3']/div/div]]></vspace4heightlocatorAboverwheretobuy>
+<vSpace7Heightbelowwheretobuy><![CDATA[//div[@id="globalSupportFormmidas"]/div[@class='support-body-3']/div/div/h5]]></vSpace7Heightbelowwheretobuy>
+<iconwidthlocator><![CDATA[//div[@id="globalSupportFormmidas"]/div[@class='support-body-3']/div/div/a/img]]></iconwidthlocator>
+<textspace1heightbelowfindyours><![CDATA[//div[@id="globalSupportFormmidas"]/div[@class='support-body-3']/div/div//div[@class="support-tex-desc"]]]></textspace1heightbelowfindyours>
+<gutter8widthinfirstcol><![CDATA[//div[@id="globalSupportFormmidas"]/div[@class='support-body-3']/div[2]/div]]></gutter8widthinfirstcol>
+<vspace1heightaboverBringerlogofooter><![CDATA[//div[@class='container full support-container-wrapper']]]></vspace1heightaboverBringerlogofooter>
+<vspace2heightaboverBringerlogoincolumn><![CDATA[//div[@class='container brand-logo-secondline']//div[@class='col-lg-6 no-gutter']]]></vspace2heightaboverBringerlogoincolumn>
+<vspace1heightabovefooter><![CDATA[//div[@class='container brand-logo-secondline']//div]]></vspace1heightabovefooter>
+<vspac1heightabovefooter1><![CDATA[//footer[@class='copy-right-simple']]]></vspac1heightabovefooter1>
+<vspace4heightabovecare><![CDATA[//div[@id="globalSupportFormmidas"]/div[@class='support-body-3']/div[3]]]]></vspace4heightabovecare>
+</MgUnifiedGlobalSupport>
+</Locators>

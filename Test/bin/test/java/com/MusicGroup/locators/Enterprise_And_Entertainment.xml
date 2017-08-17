@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<Enterprise_Entertainment>
+<clickentertainmentimage><![CDATA[//div[@class='spotlight']/a/img]]></clickentertainmentimage>
+<HomeBillboardlocator><![CDATA[//div[@class="slide-item"]/a/img]]></HomeBillboardlocator>
+<linedivider><![CDATA[//div[@class="spotlight"]]]></linedivider>
+<spotlightimage><![CDATA[//div[@class='banner-group']//a/img]]></spotlightimage>
+<spotlight2image><![CDATA[//div[@class='banner-group']/div[2]/a/img]]></spotlight2image>
+</Enterprise_Entertainment>
+ </Locators>

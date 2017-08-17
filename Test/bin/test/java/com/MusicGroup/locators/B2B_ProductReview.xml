@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<B2B_ProductReviewPage>
+<ClickFirstProduct><![CDATA[//a[@class="productMainLink"]]]></ClickFirstProduct>
+<ClickWritingYourOwnReviewbtn><![CDATA[//a[@class="btn-write-review"]]]></ClickWritingYourOwnReviewbtn>
+<vSpace1heightlocator><![CDATA[//div[@class='product-review write']]]></vSpace1heightlocator>
+<vspace4heightlocator><![CDATA[//div[@class='header']/h1]]></vspace4heightlocator>
+<vSpace14heightlocator><![CDATA[//div[@class='image']]]></vSpace14heightlocator>
+<vSpace3Heightlocator1><![CDATA[//div[@class='form-row']]]></vSpace3Heightlocator1>
+<vSpace3Heightlocator2><![CDATA[//input[@id='headline']]]></vSpace3Heightlocator2>
+<vspace19hightinput><![CDATA[//select[@id="ratingHandling.rating"]]]></vspace19hightinput>
+<vspace19height1><![CDATA[//form[@id='formData']/div[2]]]></vspace19height1>
+<vspace19hightinput2><![CDATA[//select[@id="ratingHandling.rating"]]]></vspace19hightinput2>
+<vspace19height1loc2><![CDATA[//form[@id='formData']/div[2]]]></vspace19height1loc2>
+<vspace3locatorabovereview><![CDATA[//form[@id='formData']/div[4]]]></vspace3locatorabovereview>
+<vspace3locatorabovereview1><![CDATA[//form[@id="formData"]/div[5]/div]]></vspace3locatorabovereview1>
+<gutter86width><![CDATA[//div[@class='form-group col-6']]]></gutter86width>
+<gap17width><![CDATA[//a[@class="button white preview"]]]></gap17width>
+<gap17widthsubmit><![CDATA[//button[@class="button blue"]]]></gap17widthsubmit>
+<Vspace1HeightbelowSave><![CDATA[//div[@class='form-row special']]]></Vspace1HeightbelowSave>
+<vSpace12Heightlocator><![CDATA[//div[@class='user-guidelines']]]></vSpace12Heightlocator>
+<gutter8Width><![CDATA[//div[@class='user-guidelines']]]></gutter8Width>
+<vSpace1Heightfooter><![CDATA[//div[@class='product-review write']]]></vSpace1Heightfooter>
+ <vspace1Hieghtfooter1><![CDATA[//div[@class='yCmsContentSlot footer']]]></vspace1Hieghtfooter1>
+ <vSpace15Locator><![CDATA[//div[@class='content']]]></vSpace15Locator>
+ </B2B_ProductReviewPage>
+</Locators>

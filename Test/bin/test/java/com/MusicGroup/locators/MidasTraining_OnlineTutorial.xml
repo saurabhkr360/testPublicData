@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<MGTrainingOnlineTutorial>
+<ClickToggleMenu><![CDATA[//i[@class='icon-menu icon-menu-login']]]></ClickToggleMenu>
+<ClickMidasBrand><![CDATA[//a[@class='brand-midas']]]></ClickMidasBrand>
+<ClickOnTraining><![CDATA[//a[contains(text(),'Training')]]]></ClickOnTraining>
+<ClickOnSchedule><![CDATA[//a[contains(text(),'Online Tutorials')]]]></ClickOnSchedule>
+
+</MGTrainingOnlineTutorial>
+
+<VerifyPixels>
+<vSpace1HeaderHeight><![CDATA[//div[@class='training-page-margins']]]></vSpace1HeaderHeight>
+<vSpace1HeadingHeight><![CDATA[//div[@class='training-page-margins']/section[@class='row']/h1]]></vSpace1HeadingHeight>
+<vImageHeightNWidth><![CDATA[//div[@class='training-billboard']/img]]></vImageHeightNWidth>
+<vListItemHeight><![CDATA[//div[@id='training-page']/ul]]></vListItemHeight>
+<vSpace4HeightBelowFirstImage><![CDATA[//ul[@class='list-inline piped']]]></vSpace4HeightBelowFirstImage>
+<vSpace4HeightAboveText><![CDATA[//div[@class='toturial-border']]]></vSpace4HeightAboveText>
+<vTextSpace10Height><![CDATA[//div[@class='toturial-video']/h5]]></vTextSpace10Height>
+<vTextSpace8VideoHeight><![CDATA[//div[@class='toturial-thumb']]]></vTextSpace8VideoHeight>
+<vTextSpace10HeightP><![CDATA[//div[@class='toturial-video']/p]]></vTextSpace10HeightP>
+<vSpcae4VideoHeight><![CDATA[//div[@class='toturial-video-divider']]]></vSpcae4VideoHeight>
+<fixedVideoHeight><![CDATA[//div[@class='toturial-video-divider'][2]//div/div[@class='toturial-thumb']]]></fixedVideoHeight>
+<vGutter9Width><![CDATA[//div[@class='toturial-video-divider'][1]/div[@class='toturial-video'][2]]]></vGutter9Width>
+<vGutter9Width1><![CDATA[//div[@class='toturial-video-divider'][1]/div[@class='toturial-video'][3]]]></vGutter9Width1>
+<vGap68Width1><![CDATA[//div[@id='training-page']/ul/li[1]]]></vGap68Width1>
+<vGap68Width2><![CDATA[//div[@id='training-page']/ul/li[2]]]></vGap68Width2>
+<vGap68Width3><![CDATA[//div[@id='training-page']/ul/li[3]]]></vGap68Width3>
+<vGap68Width4><![CDATA[//div[@id='training-page']/ul/li[4]]]></vGap68Width4>
+
+</VerifyPixels>
+
+</Locators>

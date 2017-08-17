@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<OurStory>
+<ClickonSupport><![CDATA[//a[contains(.,'Support')]]]></ClickonSupport>
+<ClickBrand><![CDATA[//div[@class='container brand-logo-firstline']//a[@class='logo-brands logo-midas']/img]]></ClickBrand>
+<MenuIcon><![CDATA[//div[@id='globalSupportFormmidas']//p[@class='link']/a[contains(text(), 'Explore Now')]]]></MenuIcon>
+<ClickOnStoreLocation><![CDATA[//a[contains(text(),'Alphatec Audio Video Pvt Ltd')]]]></ClickOnStoreLocation>
+<ClickOnDriveDirectionMap><![CDATA[//a[contains(text(),'Driving directions and map >')]]]></ClickOnDriveDirectionMap>
+</OurStory>
+<VerifyPixels>
+<vSpace1HeaderHeight><![CDATA[//div[@class='location-head-find']]]></vSpace1HeaderHeight>
+<vTextSpace1HeightBelowStore><![CDATA[//div[@class='store-info']/h4]]></vTextSpace1HeightBelowStore>
+<VtextSpace10HeightBelowName><![CDATA[//div[@class='store-info']/ul]]></VtextSpace10HeightBelowName>
+<vTextSpace9HeightStreetAddress><![CDATA[//div[@class='store-info']/ul/li[2]]]></vTextSpace9HeightStreetAddress>
+<vTextSpace9HeightCountryAddress><![CDATA[//div[@class='store-info']/ul/li[3]]]></vTextSpace9HeightCountryAddress>
+<vTextSpace10HeightAboveBack><![CDATA[//div[@class='store-info']/ul/li[@class='howto-get-here']]]></vTextSpace10HeightAboveBack>
+<vTextSpace10HeightAboveBack1><![CDATA[//div[@class='store-info']/ul/li[@class='howto-get-here']/br]]></vTextSpace10HeightAboveBack1>
+<vTextSpace10HeightBack><![CDATA[//div[@class='store-info']/ul/li[@class='howto-get-here']/div[@class='btn-back']/a[contains(text(),'Back >')]]]></vTextSpace10HeightBack>
+<vImageBoxImageHeightWidth><![CDATA[//div[@id='map_canvas']]]></vImageBoxImageHeightWidth>
+<vSPace15HeightAboveLocation><![CDATA[//div[@class='location-search']]]></vSPace15HeightAboveLocation>
+<Vspace1FooterHeight><![CDATA[//div[@class='storedetail_finder']]]></Vspace1FooterHeight>
+</VerifyPixels>
+</Locators>

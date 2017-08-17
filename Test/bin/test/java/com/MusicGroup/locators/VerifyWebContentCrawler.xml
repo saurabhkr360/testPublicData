@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+<ClickOnPage>
+<vSupportPage><![CDATA[//a[contains(text(),'Support')]]]></vSupportPage>
+<vSolutionPage><![CDATA[//a[contains(text(),'Solutions')]]]></vSolutionPage>
+<vBrandPage><![CDATA[//a[contains(text(),'Brands')]]]></vBrandPage>
+<vJoinUsPage><![CDATA[//a[contains(text(),'Join Us')]]]></vJoinUsPage>
+<vJoinUs_WhatWeDo><![CDATA[//div[@class='image-career ']/a[@href='/joinus/what-we-do']/img]]></vJoinUs_WhatWeDo>
+<vJoinUs_WhereFindUs><![CDATA[//div[@class='nav-footer-item'][2]/h4/a[contains(text(),'Where You Find Us')]]]></vJoinUs_WhereFindUs>
+<vJoinUS_HowWeLive><![CDATA[//div[@class='nav-footer-item'][3]/h4/a[contains(text(),'How We Live')]]]></vJoinUS_HowWeLive>
+ 
+ <MenuIcon><![CDATA[//i[contains(@class,'icon-menu icon-menu-login')]]]></MenuIcon>
+ <ClickOnMidasBrand><![CDATA[//a[contains(@class,'brand-midas')]]]></ClickOnMidasBrand>
+ <vMidasProductPage><![CDATA[//ul[@id='top-nav-links']/li[2]/a[contains(text(),'Products')]]]></vMidasProductPage>
+ <vMidasOurStoryPage><![CDATA[//ul[@id='top-nav-links']/li[4]/a[contains(text(),'Our Story')]]]></vMidasOurStoryPage>
+ <VMidasDownloadPage><![CDATA[//ul[@id='top-nav-links']/li[6]/a[contains(text(),'Downloads')]]]></VMidasDownloadPage>
+ <vMidasTrainingPage><![CDATA[//ul[@id='top-nav-links']/li[7]/a[contains(text(),'Training')]]]></vMidasTrainingPage>
+ <vMidasBuyNowPage><![CDATA[//ul[@id='top-nav-links']/li[8]/a[contains(text(),'Buy now')]]]></vMidasBuyNowPage>
+ <ClickOnKlarkTeknik><![CDATA[//a[contains(@class,'brand-klarkteknik')]]]></ClickOnKlarkTeknik>
+ <vKlarkTeknikBuyNowPage><![CDATA[//ul[@id='top-nav-links']/li[7]/a[contains(text(),'Buy now')]]]></vKlarkTeknikBuyNowPage>
+       <ClickBrandbehringer><![CDATA[//a[contains(@class,'brand-behringer')]]]></ClickBrandbehringer>
+       <ClickOnBugeraBrand><![CDATA[//a[contains(@class,'brand-bugera')]]]></ClickOnBugeraBrand>
+       <ClickOnTurboSound><![CDATA[//a[contains(@class,'brand-turbosound')]]]></ClickOnTurboSound>
+       
+      <vTermOfUsePage><![CDATA[//li[@class='yCmsComponent footerLink Fc left_col'][1]/a[contains(text(),'Terms of Use')]]]></vTermOfUsePage>
+      <vPrivacyPolicyPage><![CDATA[//li[@class='yCmsComponent footerLink Fc left_col'][2]/a[contains(text(),'Privacy Policy')]]]></vPrivacyPolicyPage>
+      <vSiteMapPage><![CDATA[//li[@class='yCmsComponent footerLink Fc left_col'][3]/a[contains(text(),'Site Map')]]]></vSiteMapPage>
+      <vFooterJoinUsPage><![CDATA[//li[@class='yCmsComponent footerLink Fc left_col'][4]/a[contains(text(),'Join Us')]]]></vFooterJoinUsPage>
+      <vNewsPage><![CDATA[//li[@class='yCmsComponent footerLink Fc left_col'][5]/a[contains(text(),'News')]]]></vNewsPage>
+      <VEnterpriseNEnterainment><![CDATA[//div[@class='col-xs-4']/h5/a[contains(text(),' Enterprise and Entertainment')]]]></VEnterpriseNEnterainment>
+      <vInstallPage><![CDATA[//div[@class='spotlight']/a[contains(@href,'/install')]/img]]></vInstallPage>
+      <vLivePage><![CDATA[//div[@class='spotlight']/a[contains(@href,'/live')]/img]]></vLivePage>
+      <vCreationPage><![CDATA[//div[@class='spotlight']/a[contains(@href,'/creation')]/img]]></vCreationPage>
+      <vMusicInstrumentPage><![CDATA[//div[@class='spotlight']/a[contains(@href,'/musicalinstrument')]/img]]></vMusicInstrumentPage>
+      <ProductionPAge><![CDATA[//div[@class='spotlight']/a[contains(@href,'/production')]/img]]></ProductionPAge>
+</ClickOnPage>
+</Locators>

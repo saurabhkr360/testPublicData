@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <UnifiedOrderSparePart>
+       <ClickSupportMenu><![CDATA[//a[@class="btn-support"]]]></ClickSupportMenu>
+       <ClickMidasLogo><![CDATA[//a[@class="logo-brands logo-midas"]]]></ClickMidasLogo>
+       <ClickOrderSpare><![CDATA[//*[@id='globalSupportFormmidas']/div[2]/div[5]/div[2]/div[2]/p[2]/a]]></ClickOrderSpare>
+       <ClickNoButtton><![CDATA[//div[@class='fancybox-skin']//div[@id='popup_Midas_OrderSparePart_SupportLanding']//a[@class='btn-popup-white']]]></ClickNoButtton>
+     </UnifiedOrderSparePart>  
+    <VerifyPixels>
+       <vSpace1Height><![CDATA[//h1[@class='page-title']]]></vSpace1Height>
+       <textSpace1Height><![CDATA[//p[@class="description"]]]></textSpace1Height>
+       <vSpace4Height><![CDATA[//div[@class='tab-content']]]></vSpace4Height>
+       <vSpace4Height1><![CDATA[//label[contains(text(),'First Name')]]]></vSpace4Height1>
+       <vSpace4HeightModel><![CDATA[//label[contains(text(),'Model')]]]></vSpace4HeightModel>
+       <vSpace14HeightLastName><![CDATA[//label[contains(text(),'Last Name')]]]></vSpace14HeightLastName>
+       <vSpace2HeightEmail><![CDATA[//div[@class='left-panel col-md-6']//p[2]]]></vSpace2HeightEmail>
+       <vSpace2HeightEmail><![CDATA[//label[contains(text(),'Email')]]]></vSpace2HeightEmail>
+       <vSpace2HeightBelowLanguage><![CDATA[//hr[@class="separator"]]]></vSpace2HeightBelowLanguage>
+       <vSpace2HeightBelowLanguage1><![CDATA[//div[@class='left-panel col-md-6']//p[6]]]></vSpace2HeightBelowLanguage1>
+       <vSpace14HeightState><![CDATA[//div[@class='left-panel col-md-6']//p[11]]]></vSpace14HeightState>
+       <Gutter21Width><![CDATA[//div[@class='right-panel col-md-6']]]></Gutter21Width>
+    </VerifyPixels>
+    <VerifyPixelsAuthorizedPopup>
+       <vSpace15Height><![CDATA[//a[@class='fancybox-item fancybox-close']]]></vSpace15Height>
+       <vSpace5Height><![CDATA[//div[@id='popup_Midas_OrderSparePart_SupportLanding']/p[1]]]></vSpace5Height>
+       <TextSpace5Height><![CDATA[//div[@id='popup_Midas_OrderSparePart_SupportLanding']/p[2]]]></TextSpace5Height>
+       <gap17width><![CDATA[//div[@id='popup_Midas_OrderSparePart_SupportLanding']/p[2]/a[2]]]></gap17width>
+    </VerifyPixelsAuthorizedPopup>
+    
+</Locators>
